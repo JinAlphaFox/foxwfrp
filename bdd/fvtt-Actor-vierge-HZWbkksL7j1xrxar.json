@@ -3,7 +3,7 @@
   "system": {
     "characteristics": {
       "ws": {
-        "initial": 0,
+        "initial": 10,
         "modifier": 0,
         "advances": 0,
         "bonusMod": 0,
@@ -1900,6 +1900,6909 @@
         "mBtrbCGpF0ACWSFj": 3
       },
       "sort": 0
+    },
+    {
+      "name": "Arme simple",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/hand-weapon.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Hand Weapon"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": "Le terme « Arme simple » est utilisé pour décrire un certain nombre d’armes de base qui, bien que différentes, sont considérées comme étant effectivement les mêmes pour le jeu, y compris les épées, les haches, les marteaux, les masses, les lances courtes etc."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495171,
+        "modifiedTime": 1716037357969,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "pheDq4lth4Y7DKgc",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Arme Improvisée",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/improvised-weapon.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.mRU10yAWWWs5WoKt"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Improvised Weapon"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+1"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495386,
+        "modifiedTime": 1716037360995,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "6wWivIuBpgaxdjnM",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Dague",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/dagger.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.ahlxlfIl8xUhBkic"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Dagger"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 16,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495290,
+        "modifiedTime": 1716037363471,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "P9g67TixJS2LxUNS",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Couteau",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/knife.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.83KlMxHxGfKUdMfq"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Knife"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 8,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+1"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495175,
+        "modifiedTime": 1716037365526,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "E1PpBEhGjZZWMQjk",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bouclier (Targe)",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/shield-buckler.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.J9sVeK9nbQLFyUMU"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Shield (Buckler)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 18,
+          "bp": 2
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+1"
+        },
+        "reach": {
+          "value": "personal"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 1,
+              "name": "shield"
+            },
+            {
+              "name": "defensive"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495183,
+        "modifiedTime": 1716037370566,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "3wIsyML0j0a0ARR7",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bouclier",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/shield.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.8nJ9R8tbhW42VGhr"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Shield"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 2,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 2,
+              "name": "shield"
+            },
+            {
+              "name": "defensive"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495176,
+        "modifiedTime": 1716037373109,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "B2NH7q3FPyJW0nUz",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bouclier (Grand)",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/shield-large.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.CYkA9Ax6BN7eiTvf"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Shield (Large)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 3,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+3"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 3,
+              "name": "shield"
+            },
+            {
+              "name": "defensive"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495179,
+        "modifiedTime": 1716037375087,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "37ArGZS1jo446W6N",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Marteau à bec-de-corbin",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/cavalry-hammer.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.HDQVaCTpIy2PBdYu"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Cavalry Hammer"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 3,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+5"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "cavalry"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "pummel"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495182,
+        "modifiedTime": 1716037377900,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "5PDJKOUWvLvZfjI7",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Lance de cavalerie",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/lance.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.O2jqCh3Zb5eR4yXe"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Lance"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+6"
+        },
+        "reach": {
+          "value": "vLong"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "cavalry"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impact"
+            },
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": "Les Lances de cavalerie sont considérées comme des Armes improvisées si vous les utilisez lors d’un Round où vous n’avez pas Chargé."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495283,
+        "modifiedTime": 1716037379651,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "1Kenl5cN2ws39lIa",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Fleuret",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/foil.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.uSxXVJogASbJ62hl"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Foil"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 5,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+3"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "fencing"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "fast"
+            },
+            {
+              "name": "impale"
+            },
+            {
+              "name": "precise"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495390,
+        "modifiedTime": 1716037383420,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "fa3pH3Bx5AB0ToHK",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Rapière",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/rapier.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Uuu0bA2DmNp8o2JF"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Rapier"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 5,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "fencing"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "fast"
+            },
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495286,
+        "modifiedTime": 1716037385296,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "etm3iQhrLUnMs6pU",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Mains nues",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/unarmed.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.KlT5qZzI1bsdvoHv"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Unarmed"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+0"
+        },
+        "reach": {
+          "value": "personal"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "brawling"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "undamaging"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495185,
+        "modifiedTime": 1716037387432,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "rJYiRKwaaYSr6JYc",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Coup-de-poing",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/knuckledusters.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.kOfcQJQOgmGsqA5U"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Knuckledusters"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 2,
+          "bp": 6
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": "personal"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "brawling"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495297,
+        "modifiedTime": 1716037389688,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "xB8lHwhzFL2XxLW6",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Fléau à Grain",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/grain-flail.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.56Y8YRC8wF2e6yye"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Grain Flail"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 0,
+          "ss": 10,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+3"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "flail"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "distract"
+            },
+            {
+              "name": "wrap"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "imprecise"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495173,
+        "modifiedTime": 1716037392762,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "FasHDDozg3ECdJpk",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Fléau",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/flail.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.bBX8MP6QfcyU6Fy3"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Flail"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 2,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+5"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "flail"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "distract"
+            },
+            {
+              "name": "wrap"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495291,
+        "modifiedTime": 1716037394648,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "rni5YN1CNGyLzq46",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Fléau d'armes",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/military-flail.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.N3aHfG4XASsiNoRv"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Military Flail"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 3,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+6"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "flail"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "distract"
+            },
+            {
+              "name": "wrap"
+            },
+            {
+              "name": "impact"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "tiring"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495277,
+        "modifiedTime": 1716037399303,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "ynnLTHJxe6FUzPBr",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Main Gauche",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/main-gauche.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.5DOi1id1tatHp9Q5"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Main Gauche"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "parry"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "defensive"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495173,
+        "modifiedTime": 1716037402190,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "aVrJpsUfx9SYP6S1",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Brise-Épée",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/swordbreaker.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.uDavMIqhDl5aDNOy"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Swordbreaker"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 1,
+          "ss": 2,
+          "bp": 6
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+3"
+        },
+        "reach": {
+          "value": "short"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "parry"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "defensive"
+            },
+            {
+              "name": "trapblade"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495390,
+        "modifiedTime": 1716037404750,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "QkS8nSpgkXlVdPje",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Hallebarde",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/halberd.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.CXg7XOFJwu4LZ9LM"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Halberd"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 2,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "polearm"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "defensive"
+            },
+            {
+              "name": "hack"
+            },
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495179,
+        "modifiedTime": 1716037409393,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "PgxG2V5EYyZzY1Ql",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Lance",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/spear.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.zIuarD5mB0EF0ji0"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Spear"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 0,
+          "ss": 15,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "vLong"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "polearm"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495393,
+        "modifiedTime": 1716037412014,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "0nfUCO4bXGXks8DU",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Pique",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/pike.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Bda4Wvnlt3q5zkKC"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Pike"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 4
+        },
+        "price": {
+          "gc": 0,
+          "ss": 18,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "massive"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "polearm"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495179,
+        "modifiedTime": 1716037414599,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "l5CBzqxDnjYNCZeB",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Bâton de combat",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/quarter-staff.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Quarterstaff"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 0,
+          "ss": 3,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "polearm"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "defensive"
+            },
+            {
+              "name": "pummel"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1716037416695,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "RIoivNYvCt99H6kk",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Épée Batârde",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/bastard-sword.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.F7jJaldf3lbkjABW"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bastard Sword"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 8,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+5"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "twohanded"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            },
+            {
+              "name": "defensive"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495180,
+        "modifiedTime": 1716037421031,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "PXEYL9q4zDmvXs9s",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Grande Hache",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/great-axe.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.QnFLWJmz2DN76Dx5"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Great Axe"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 4,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+6"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "twohanded"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impact"
+            },
+            {
+              "name": "hack"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "tiring"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495284,
+        "modifiedTime": 1716037423275,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "B8biehWAP7DaehCs",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Pioche",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/pick.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.G2yEH6caM0FJ9s0G"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Pick"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 0,
+          "ss": 9,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+5"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": ""
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "twohanded"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            },
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "slow"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1716037425739,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "lU6c8LfWgi1CWV91",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Marteau de Guerre",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/warhammer.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.CdP1xLEJbe289beI"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Warhammer"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 3,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+6"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "twohanded"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            },
+            {
+              "name": "pummel"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "slow"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495179,
+        "modifiedTime": 1716037428612,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "IXLQOys5UwsRVf9f",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Zweihänder",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/zweihander.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.039vRQ8jv5cY3P4o"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Zweihander"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 10,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+5"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "twohanded"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            },
+            {
+              "name": "hack"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495169,
+        "modifiedTime": 1716037431104,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "GWtfnRh0vPwL7ybP",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Tromblon",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/blunderbuss.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.ByHt0vTWRIuHS2r8"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Blunderbuss"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 2,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+8"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "20"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "BPandEng"
+        },
+        "currentAmmo": {
+          "value": "140"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "blackpowder"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 3,
+              "name": "blast"
+            },
+            {
+              "name": "blackpowder"
+            },
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "value": 2,
+              "name": "reload"
+            },
+            {
+              "name": "dangerous"
+            }
+          ]
+        },
+        "special": {
+          "value": "Toutes les Armes à Poudre noire et d’Ingénierie possèdent les Atouts Poudre noire et Dévastatrice."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495179,
+        "modifiedTime": 1716037435339,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "4zgkrIss3Ty79S2e",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Long Fusil d'Hochland",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/hochland-long-rifle.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "long"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.1tHkTZYaauicIh8I"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Hochland Long Rifle"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 100,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "exotic"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+9"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "100"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "BPandEng"
+        },
+        "currentAmmo": {
+          "value": "140"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "blackpowder"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "accurate",
+              "value": null
+            },
+            {
+              "name": "blackpowder",
+              "value": null
+            },
+            {
+              "name": "damaging",
+              "value": null
+            },
+            {
+              "name": "precise",
+              "value": null
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "reload",
+              "value": 4
+            }
+          ]
+        },
+        "special": {
+          "value": "Toutes les Armes à Poudre noire et d’Ingénierie possèdent les Atouts Poudre noire et Dévastatrice."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495170,
+        "modifiedTime": 1716037437602,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "2O7fXE1UX2dQat2R",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arquebuse",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/handgun.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.zuFTVmBtN51K94Xy"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Handgun"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 4,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+9"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "50"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "BPandEng"
+        },
+        "currentAmmo": {
+          "value": "140"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "blackpowder"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            },
+            {
+              "name": "blackpowder"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "value": 3,
+              "name": "reload"
+            },
+            {
+              "name": "dangerous"
+            }
+          ]
+        },
+        "special": {
+          "value": "Toutes les Armes à Poudre noire et d’Ingénierie possèdent les Atouts Poudre noire et Dévastatrice."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495393,
+        "modifiedTime": 1716037440320,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "3O5BcjPa56xvb02o",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Pistolet",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/pistol.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.PnYGK5FPgEGM1Ck3"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Pistol"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 8,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+8"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "20"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "BPandEng"
+        },
+        "currentAmmo": {
+          "value": "140"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "blackpowder"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "pistol"
+            },
+            {
+              "name": "blackpowder"
+            },
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "value": 1,
+              "name": "reload"
+            }
+          ]
+        },
+        "special": {
+          "value": "Toutes les Armes à Poudre noire et d’Ingénierie possèdent les Atouts Poudre noire et Dévastatrice."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495284,
+        "modifiedTime": 1716037442615,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "vt5voT3riNuelK5k",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arc Elfique",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/elf-bow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "long"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.2mE771fGEEB38OqG"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Elf Bow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 10,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "exotic"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "150"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "bow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "bow"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            },
+            {
+              "name": "precise"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495171,
+        "modifiedTime": 1716037444765,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "VzLj9fIPASwjWR3u",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arc long",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/longbow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "long"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.RHkj94yUJp620xr1"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Longbow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 5,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "100"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "bow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "bow"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495285,
+        "modifiedTime": 1716037447782,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "EYpGP2WaPJRlycNW",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arc",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/bow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.U94l3IDj3xfIc78i"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 4,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+3"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "50"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "bow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "bow"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495286,
+        "modifiedTime": 1716037450608,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "xxZxQtod7yGokMhL",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arc court",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/shortbow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.CRNrEnLXTGXVT1UW"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Shortbow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 3,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "20"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "bow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "bow"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495179,
+        "modifiedTime": 1716037452939,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "04sS2hPWc6GCmJeS",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Arbalète de Poing",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/crossbow-pistol.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.M71CyisSXU0I7V1S"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Crossbow Pistol"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 6,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+7"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "10"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "crossbow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "crossbow"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "pistol"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495186,
+        "modifiedTime": 1716037456802,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "dE3zWonRUMPT6DN6",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arbalète Lourde",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/heavy-crossbow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "long"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.K34pxV6XsxhoZRiQ"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Heavy Crossbow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 7,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+9"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "100"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "crossbow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "crossbow"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "value": 2,
+              "name": "reload"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495184,
+        "modifiedTime": 1716037459225,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "iLq76U761qgZ1D5T",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arbalète",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/crossbow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.ksRqHiMVpIL07Ij1"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Crossbow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 5,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+9"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "60"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "crossbow"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "crossbow"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": [
+            {
+              "value": 1,
+              "name": "reload"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495298,
+        "modifiedTime": 1716037461576,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "kRk9uHo0Dutj7Q90",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Arquebuse à Répétition",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/repeater-handgun.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.M23N8sjzEp16abQQ"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Repeater Handgun"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 3
+        },
+        "price": {
+          "gc": 10,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+9"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "30"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "BPandEng"
+        },
+        "currentAmmo": {
+          "value": "140"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "engineering"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 4,
+              "name": "repeater"
+            },
+            {
+              "name": "blackpowder"
+            },
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "dangerous"
+            },
+            {
+              "value": 5,
+              "name": "reload"
+            }
+          ]
+        },
+        "special": {
+          "value": "Toutes les Armes à Poudre noire et d’Ingénierie possèdent les Atouts Poudre noire et Dévastatrice."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495186,
+        "modifiedTime": 1716037463597,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "8QnrWWtu32LXAtyS",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Pistolet à Répétition",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/repeater-pistol.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.8dKmuti5IuIs9AJA"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Repeater Pistol"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 15,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+8"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "10"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "BPandEng"
+        },
+        "currentAmmo": {
+          "value": "140"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "engineering"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 4,
+              "name": "repeater"
+            },
+            {
+              "name": "pistol"
+            },
+            {
+              "name": "blackpowder"
+            },
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "dangerous"
+            },
+            {
+              "value": 4,
+              "name": "reload"
+            }
+          ]
+        },
+        "special": {
+          "value": "Toutes les Armes à Poudre noire et d’Ingénierie possèdent les Atouts Poudre noire et Dévastatrice."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495176,
+        "modifiedTime": 1716037466535,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "nF75fGbWts4BkTjc",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Lasso",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/lasso.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.k0JKY8ck2QUx5mKS"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Lasso"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 6,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "-"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx2"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": false
+        },
+        "weaponGroup": {
+          "value": "entangling"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "entangle"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": "Les armes immobilisantes ne possèdent pas de fourchette de portée, juste la portée listée."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495296,
+        "modifiedTime": 1716037470775,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "zXSkNVWIiqvFWSNn",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Fouet",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/whip.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": ""
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.xiOYNJcfqPselfwT"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Whip"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 5,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "6"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": false
+        },
+        "weaponGroup": {
+          "value": "entangling"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "entangle"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": "Les armes immobilisantes ne possèdent pas de fourchette de portée, juste la portée listée."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495392,
+        "modifiedTime": 1716037472939,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "z5xS6sgjWJtSMmel",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bombe",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/bomb.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.X8WFQf0HB9yXKjdD"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bomb"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 3,
+          "ss": 6,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+12"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SB"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "explosives"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 5,
+              "name": "blast"
+            },
+            {
+              "name": "impact"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "dangerous"
+            }
+          ]
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495287,
+        "modifiedTime": 1716037475377,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "n8U4PMO0wOgeHx0R",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bombe incendiaire",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/incendiary.png",
+      "effects": [
+        {
+          "_id": "BRhiXQ6Pig4FoZlF",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "target",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "Incendiary",
+                  "trigger": "immediate",
+                  "script": "[Script.JZIn1dsKHFE3smJU]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": true
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/equipment/weapons/incendiary.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Incendiary",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.vI0oorwbZdlszudf"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Incendiary"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": ""
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SB"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "explosives"
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 4,
+              "name": "blast"
+            }
+          ]
+        },
+        "flaws": {
+          "value": [
+            {
+              "name": "dangerous"
+            }
+          ]
+        },
+        "special": {
+          "value": "Une Bombe incendiaire donne +DR État Enflammé à chaque cible affectée."
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495390,
+        "modifiedTime": 1716037477990,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "mkrduJMYrIbHqEUl",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Fronde",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/sling.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.7Bpc5I8Arucy3w4q"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sling"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 1,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+6"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "60"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "sling"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "sling"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495175,
+        "modifiedTime": 1716037482227,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "9OC7ZU7o4I459zgP",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Fustibale",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/staff-sling.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.KSwMbO8dqISoGuIo"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Staff Sling"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 0,
+          "ss": 4,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+7"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "100"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "sling"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "sling"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495185,
+        "modifiedTime": 1716037484716,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "3WrqD70lPKAmPtQd",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bolas",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/bolas.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.qim3Ad0ldTS9mXDj"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bolas"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 10,
+          "bp": 0
+        },
+        "availability": {
+          "value": "rare"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+SB"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx3"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "throwing"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "entangle"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495388,
+        "modifiedTime": 1716037491070,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "lv53yTX3VEHuaqNz",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Fléchette",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/dart.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.ddXgrDWZXSM3nXaf"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Dart"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous faites voler une petite fléchette d'énergie magique depuis vos doigts. Il s'agit d'un <em>Projectile magique</em> avec Dégât +0.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 2,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+SB+1"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx2"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "throwing"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495292,
+        "modifiedTime": 1716037493646,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "eO8iS9yceS1veqXZ",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Javelot",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/javelin.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.q3dEaQLL3ZYCZtU4"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Javelin"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 0,
+          "ss": 10,
+          "bp": 6
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+SB+3"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx3"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "throwing"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495388,
+        "modifiedTime": 1716037496170,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "FtjCNzJg1GFCgH9L",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Rocher",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/rock.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.NyIwm2Ge60jnUZft"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Rock"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+SB+0"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx3"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "throwing"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495283,
+        "modifiedTime": 1716037498547,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "aoyiK3MXF9nKStU0",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Hache de Lancer",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/throwing-axe.png",
+      "effects": [],
+      "flags": {
+        "wfrp4e": {
+          "optimalRange": "normal"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Xjwk84KnOKDaiZs1"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Throwing Axe"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+3"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx2"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "throwing"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "hack"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495288,
+        "modifiedTime": 1716037500940,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "7lRKniPcdCnN3wEr",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Couteau de Lancer",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/throwing-knife.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "wfrp4e": {
+          "optimalRange": "short"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.bwyUJua7I9hNg9WS"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Throwing Knife"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 18,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "+SB+2"
+        },
+        "reach": {
+          "value": ""
+        },
+        "range": {
+          "value": "SBx2"
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "throwing"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495291,
+        "modifiedTime": 1716037503388,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "8a20dyoSEmL7tCRs",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Balle et Poudre (12)",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/bullet-and-powder.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.xdAP96GGDb87m0Pr"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bullet and Powder"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 3,
+          "bp": 3
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "BPandEng"
+        },
+        "range": {
+          "value": "As weapon"
+        },
+        "damage": {
+          "value": "+1"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            },
+            {
+              "name": "penetrating"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495392,
+        "modifiedTime": 1716037513288,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "W8PtYhlBGFQItCzR",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Munitions improvisées et Poudre",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/improvised-shot-and-powder.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.CdsNf9MFRUhrJ3YA"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Improvised Shot and Powder"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 3
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "BPandEng"
+        },
+        "range": {
+          "value": "Half weapon"
+        },
+        "damage": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495180,
+        "modifiedTime": 1716037516836,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "I5oL17gmubN1OWdB",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Petites munitions et Poudre",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/small-shot-and-powder.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.5wItcVAcA6mfa62q"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Small shot and Powder"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 3,
+          "bp": 3
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "BPandEng"
+        },
+        "range": {
+          "value": "As weapon"
+        },
+        "damage": {
+          "value": ""
+        },
+        "qualities": {
+          "value": [
+            {
+              "value": 1,
+              "name": "blast"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495174,
+        "modifiedTime": 1716037520246,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "sk44gMfx5b9UaWcw",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Flèche (12)",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/arrow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.6GNNpWIGxO9CkTCR"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Arrow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Empaleuse</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 5,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "bow"
+        },
+        "range": {
+          "value": "As weapon"
+        },
+        "damage": {
+          "value": ""
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495174,
+        "modifiedTime": 1716037524970,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "BSUfRN7PCyJdt5XX",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Flèche Elfe",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/elf-arrow.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.NQ4OVp1ZfinJ7lQH"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Elf Arrow"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 6,
+          "bp": 0
+        },
+        "availability": {
+          "value": "exotic"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "bow"
+        },
+        "range": {
+          "value": "+50"
+        },
+        "damage": {
+          "value": "+1"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "accurate",
+              "value": null
+            },
+            {
+              "name": "impale",
+              "value": null
+            },
+            {
+              "name": "penetrating",
+              "value": null
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495283,
+        "modifiedTime": 1716037527691,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "Ga8mOXn9pA4VHgrc",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Carreau",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/bolt.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.kFROfGFdExfyJTg9"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bolt"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous concentrez la magie en un carreau destructeur. <em>Carreau</em> est un <em>Projectile magique</em> avec Dégât +4.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 5,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "crossbow"
+        },
+        "range": {
+          "value": "As weapon"
+        },
+        "damage": {
+          "value": ""
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "impale"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495296,
+        "modifiedTime": 1716037531010,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "PoYp4Xq2O6E35TOh",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Balle de plomb (12)",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/lead-bullet.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.4hV1PpYm9Q2pyUNf"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Lead Bullet"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 4
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "sling"
+        },
+        "range": {
+          "value": "-10"
+        },
+        "damage": {
+          "value": "+1"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "pummel"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495172,
+        "modifiedTime": 1716037533146,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "bxoyB8gmkVO5jJF7",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Projectile de Pierre (12)",
+      "type": "ammunition",
+      "img": "modules/wfrp4e-core/icons/equipment/ammunition/stone-bullet.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.mik7s6AqS8SMSaJ8"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Stone Bullet"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 2
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "ammunitionType": {
+          "value": "sling"
+        },
+        "range": {
+          "value": "As weapon"
+        },
+        "damage": {
+          "value": ""
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "pummel"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495386,
+        "modifiedTime": 1716037535269,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "jBmGXVunx3plDWbz",
+      "folder": "4vBO7teanONzXaqE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
     }
   ],
   "name": "Vierge",
@@ -1967,7 +8870,42 @@
     "flags": {},
     "randomImg": false
   },
-  "effects": [],
+  "effects": [
+    {
+      "name": "Encombrement 3",
+      "icon": "systems/wfrp4e/icons/effects/enc3.png",
+      "statuses": [
+        "enc3"
+      ],
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "trigger": "prePrepareData",
+              "script": "args.actor.details.move.value = 0;"
+            }
+          ]
+        }
+      },
+      "_id": "wskIv5wPmvXtDtyS",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false
+    }
+  ],
   "folder": null,
   "flags": {
     "autoCalcRun": true,
@@ -1989,7 +8927,7 @@
     "systemVersion": "7.1.3",
     "coreVersion": "11.315",
     "createdTime": 1715716656620,
-    "modifiedTime": 1715716656842,
+    "modifiedTime": 1716032569035,
     "lastModifiedBy": "mBtrbCGpF0ACWSFj"
   }
 }

@@ -797,6 +797,249 @@ function ficheInventaire(main, fiche) {
         </section>`
 }
 
+function detailsArmes(value, i) {
+    let eyeBegin = "";
+    let eyeEnd = "";
+    if (value !== "") {
+        eyeBegin = `<label for="check-arme${i}"><span class="check-arme${i}"><i class="fa-solid fa-eye-slash"></i> </span>`;
+        eyeEnd = `</label>`
+    }
+    return [eyeBegin, eyeEnd];
+}
+
+function tradGroupeArmes(value) {
+    let groupe = "";
+    switch (value) {
+        case "basic":
+            groupe = "Base"
+            break;
+        case "cavalry":
+            groupe = "Cavalerie"
+            break;
+        case "fencing":
+            groupe = "Escrime"
+            break;
+        case "brawling":
+            groupe = "Bagarre"
+            break;
+        case "flail":
+            groupe = "Fléau"
+            break;
+        case "parry":
+            groupe = "Parade"
+            break;
+        case "polearm":
+            groupe = "Armes d'Hast"
+            break;
+        case "two-handed":
+            groupe = "Deux-mains"
+            break;
+        case "blackpowder":
+            groupe = "Poudre Noire"
+            break;
+        case "bow":
+            groupe = "Arc"
+            break;
+        case "crossbow":
+            groupe = "Arbalète"
+            break;
+        case "engineering":
+            groupe = "Ingénierie"
+            break;
+        case "entangling":
+            groupe = "Entraves"
+            break;
+        case "explosives":
+            groupe = "Explosifs"
+            break;
+        case "sling":
+            groupe = "Fronde"
+            break;
+        case "throwing":
+            groupe = "Lancer"
+            break;
+        default:
+            break;
+    };
+    return groupe;
+};
+
+function tradAtoutsArmes(qualities) {
+    let atout = "";
+    switch (qualities.name) {
+        case "accurate":
+            atout = "pointue";
+            break;
+        case "blackpowder":
+            atout = "à poudre noire";
+            break;
+        case "blast":
+            atout = `explosion ${qualities.value}`;
+            break;
+        case "damaging":
+            atout = "dévastatrice";
+            break;
+        case "defensive":
+            atout = "défensive";
+            break;
+        case "distract":
+            atout = "perturbante";
+            break;
+        case "entangle":
+            atout = "immobilisante";
+            break;
+        case "fast":
+            atout = "rapide";
+            break;
+        case "hack":
+            atout = "taille";
+            break;
+        case "impact":
+            atout = "percutante";
+            break;
+        case "impale":
+            atout = "empaleuse";
+            break;
+        case "penetrating":
+            atout = "perforante";
+            break;
+        case "pistol":
+            atout = "pistolet";
+            break;
+        case "precise":
+            atout = "précise";
+            break;
+        case "pummel":
+            atout = "assomante";
+            break;
+        case "repeater":
+            atout = `répétition  ${qualities.value}`;
+            break;
+        case "shield":
+            atout = `protectrice ${qualities.value}`;
+            break;
+        case "trapblade":
+            atout = "piège-lame";
+            break;
+        case "unbreakable":
+            atout = "incassable";
+            break;
+        case "wrap":
+            atout = "enroulement";
+            break;
+        default:
+            atout = "cf.LDB";
+            break;
+    };
+    return atout;
+};
+
+function tradDefautsArmes(flaws) {
+    let defaut = "";
+    switch (flaws.name) {
+        case "dangerous":
+            defaut = "dangereuse";
+            break;
+        case "imprecise":
+            defaut = "imprécise";
+            break;
+        case "reload":
+            defaut = `recharge ${flaws.value}`;
+            break;
+        case "slow":
+            defaut = "lente";
+            break;
+        case "tiring":
+            defaut = "épuisante";
+            break;
+        case "undamaging":
+            defaut = "inoffensive";
+            break;
+        default:
+            defaut = "cf.LDB";
+            break;
+    };
+    return defaut;
+};
+
+function AtoutsDefautsArmes(qualities, flaws, index) {
+    let atouts = "";
+    if (qualities.length > 0) {
+        atouts = `
+            <tr class="bg-${index}">
+                <td colspan="5"><strong>Atouts</strong> : `;
+        for (let y = 0; y < qualities.length; y++) {
+            if(y > 0) {
+                atouts += `, `;
+            }
+            atouts += `${tradAtoutsArmes(qualities[y])}`;
+        }
+        atouts += `
+                </td>
+            </tr>`
+    };
+    let defauts = "";
+    if (flaws.length > 0) {
+        defauts = `
+            <tr class="bg-${index}">
+                <td colspan="5"><strong>Défauts</strong> : `;
+        for (let y = 0; y < flaws.length; y++) {
+            if(y > 0) {
+                defauts += `, `;
+            }
+            defauts += `${tradDefautsArmes(flaws[y])} `;
+        }
+        defauts += `
+                </td>
+            </tr>`
+    };
+    return [atouts, defauts];
+};
+
+function tradPorteeArmes(range) {
+    let portee = "";
+    if (range.reach.value !== "") {
+        switch (range.reach.value) {
+            case "personal":
+                portee = "Personnelle";
+                break;
+            case "vshort":
+                portee = "Très courte";
+                break;
+            case "short":
+                portee = "Courte";
+                break;
+            case "average":
+                portee = "Moyenne";
+                break;
+            case "long":
+                portee = "Longue";
+                break;
+            case "vLong":
+                portee = "Très longue";
+                break;
+            case "massive":
+                portee = "Considérable";
+                break;
+        
+            default:
+                portee = range.reach.value;
+                break;
+        };
+    }else{
+        if(range.range.value[0] === "S") {
+            if(range.range.value.length !== 2) {
+                portee = `BFx${range.range.value[3]}`;
+            }else{
+                portee = `BF`;
+            }
+        }else{
+            portee = range.range.value;
+        };
+    };
+    return portee;
+};
+
 function genereArmes(fiche) {
     const armes = fiche.items.filter(function (item) {
         return item.type === "weapon";
@@ -807,8 +1050,6 @@ function genereArmes(fiche) {
     let arme2 = "";
     let index = 0;
     for (let i = 0; i < armes.length; i++) {
-        let eyeBegin = "";
-        let eyeEnd = "";
         switch (index) {
             case 0:
                 index = 1;
@@ -817,103 +1058,41 @@ function genereArmes(fiche) {
                 index = 0;
                 break;
         }
-        if (armes[i].system.special.value !== "") {
-            eyeBegin = `<label for="check-arme${i}"><span class="check-arme${i}"><i class="fa-solid fa-eye-slash"></i> </span>`;
-            eyeEnd = `</label>`
-        }
-        let groupe = "";
-        switch (armes[i].system.weaponGroup.value) {
-            case "basic":
-                groupe = "Base"
-                break;
-            case "cavalry":
-                groupe = "Cavalerie"
-                break;
-            case "fencing":
-                groupe = "Escrime"
-                break;
-            case "brawling":
-                groupe = "Bagarre"
-                break;
-            case "flail":
-                groupe = "Fléau"
-                break;
-            case "parry":
-                groupe = "Parade"
-                break;
-            case "polearm":
-                groupe = "Armes d'Hast"
-                break;
-            case "two-handed":
-                groupe = "Deux-mains"
-                break;
-            case "blackpowder":
-                groupe = "Poudre Noire"
-                break;
-            case "bow":
-                groupe = "Arc"
-                break;
-            case "crossbow":
-                groupe = "Arbalète"
-                break;
-            case "engineering":
-                groupe = "Ingénierie"
-                break;
-            case "entangling":
-                groupe = "Entraves"
-                break;
-            case "explosives":
-                groupe = "Explosifs"
-                break;
-            case "sling":
-                groupe = "Fronde"
-                break;
-            case "throwing":
-                groupe = "Lancer"
-                break;
-            default:
-                break;
+        const [eyeBegin, eyeEnd] = detailsArmes(armes[i].system.special.value, i);
+        const groupe = tradGroupeArmes(armes[i].system.weaponGroup.value);
+        const [atouts, defauts] = AtoutsDefautsArmes(armes[i].system.qualities.value, armes[i].system.flaws.value, index);
+        const reach = tradPorteeArmes(armes[i].system);
+
+        console.log(armes[i].system.damage.value[0] + armes[i].system.damage.value[1])
+        let damage = "";
+        if (armes[i].system.damage.value[0] === "S") {
+            damage = `BF+${armes[i].system.damage.value[3]}`
+        }else {
+            if(armes[i].system.damage.value[0] === "+" && armes[i].system.damage.value[1] === "S") {
+                if(armes[i].system.damage.value[3] === "+") {
+                    damage = `BF+${armes[i].system.damage.value[4]}`;
+                }else{
+                    damage = `BF`;
+                }
+            }else{
+                damage = armes[i].system.damage.value;
+            }
         }
 
-        let atouts = "";
-        if (armes[i].system.qualities.value.length > 0) {
-            atouts = `
-                <tr class="bg-${index}">
-                    <td colspan="5"><strong>Atouts</strong> : `;
-            for (let y = 0; y < armes[i].system.qualities.value.length; y++) {
-                console.log(armes[i].system.qualities.value[y].name)
-                atouts += `${armes[i].system.qualities.value[y].name} `;
-            }
-            atouts += `
-                    </td>
-                </tr>`
-        }
-        let defauts = "";
-        if (armes[i].system.flaws.value.length > 0) {
-            defauts = `
-                <tr class="bg-${index}">
-                    <td colspan="5"><strong>Défauts</strong> : `;
-            for (let y = 0; y < armes[i].system.flaws.value.length; y++) {
-                console.log(armes[i].system.flaws.value[y].name)
-                defauts += `-${armes[i].system.flaws.value[y].name} `;
-            }
-            defauts += `
-                    </td>
-                </tr>`
-        }
+        
         arme1 += `
             <tr class="bg-${index}">
                 <td>${eyeBegin}${armes[i].name}${eyeEnd}</td>
                 <td>${groupe}</td>
                 <td>${armes[i].system.encumbrance.value}</td>
-                <td>${armes[i].system.reach.value}</td>
-                <td>${armes[i].system.damage.value}</td>
+                <td>${reach}</td>
+                <td>${damage}</td>
             </tr>
             ${atouts}
             ${defauts}`
         arme2 += `
             <input type="checkbox" name="check-arme${i}" id="check-arme${i}" class="check-eye">
-            <div class="hidden">
+            <div class="hidden bg-${index}">
                 <p>${armes[i].name} : ${armes[i].system.special.value}</p>
             </div>`;
     }
@@ -932,11 +1111,12 @@ function genereArmes(fiche) {
             ${arme1}
         </table>`;
 
-    let html2 = `${arme2}`;
-    return [html1, html2]
+    //let html2 = `${arme2}`;
+    return [html1, arme2]
 }
 
 function ficheCombat(main, fiche) {
+    // weapon, armour, ammunition
     main.innerHTML += `
         <input type="checkbox" name="check-section-combat" id="check-section-combat" class="check-section check-section-combat">
         <section class="hidden">
