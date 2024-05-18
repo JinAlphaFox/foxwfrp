@@ -1,0 +1,5448 @@
+{
+  "type": "character",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "initial": 35,
+        "modifier": 0,
+        "advances": 5,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "bs": {
+        "initial": 32,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "s": {
+        "initial": 23,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "t": {
+        "initial": 32,
+        "modifier": 0,
+        "advances": 5,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "i": {
+        "initial": 31,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "ag": {
+        "initial": 29,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "dex": {
+        "initial": 29,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "int": {
+        "initial": 26,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "wp": {
+        "initial": 38,
+        "modifier": 0,
+        "advances": 5,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "fel": {
+        "initial": 35,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "value": 12,
+        "max": 12
+      },
+      "advantage": {
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "value": 0,
+        "max": 2
+      },
+      "sin": {
+        "value": 0
+      },
+      "corruption": {
+        "value": 0
+      },
+      "encumbrance": {
+        "max": 0,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "fate": {
+        "value": 3
+      },
+      "fortune": {
+        "value": 3
+      },
+      "resilience": {
+        "value": 3
+      },
+      "resolve": {
+        "value": 3
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "value": "human",
+        "subspecies": "reiklander"
+      },
+      "gender": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "gmnotes": {
+        "value": ""
+      },
+      "size": {
+        "value": "avg"
+      },
+      "move": {
+        "value": 4
+      },
+      "god": {
+        "value": ""
+      },
+      "status": {
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc"
+      },
+      "experience": {
+        "total": 420,
+        "spent": 400,
+        "log": [
+          {
+            "reason": "Avancé",
+            "amount": 345,
+            "spent": 0,
+            "total": 345,
+            "type": "total",
+            "index": 0
+          },
+          {
+            "amount": 25,
+            "reason": "Capacité de Combat",
+            "spent": 25,
+            "total": 345,
+            "type": "spent",
+            "index": 1
+          },
+          {
+            "amount": 25,
+            "reason": "Capacité de Combat",
+            "spent": 50,
+            "total": 345,
+            "type": "spent",
+            "index": 2
+          },
+          {
+            "amount": 25,
+            "reason": "Capacité de Combat",
+            "spent": 75,
+            "total": 345,
+            "type": "spent",
+            "index": 3
+          },
+          {
+            "amount": 25,
+            "reason": "Capacité de Combat",
+            "spent": 100,
+            "total": 345,
+            "type": "spent",
+            "index": 4
+          },
+          {
+            "amount": 25,
+            "reason": "Capacité de Combat",
+            "spent": 125,
+            "total": 345,
+            "type": "spent",
+            "index": 5
+          },
+          {
+            "amount": 25,
+            "reason": "Endurance",
+            "spent": 150,
+            "total": 345,
+            "type": "spent",
+            "index": 6
+          },
+          {
+            "amount": 25,
+            "reason": "Endurance",
+            "spent": 175,
+            "total": 345,
+            "type": "spent",
+            "index": 7
+          },
+          {
+            "amount": 25,
+            "reason": "Endurance",
+            "spent": 200,
+            "total": 345,
+            "type": "spent",
+            "index": 8
+          },
+          {
+            "amount": 25,
+            "reason": "Endurance",
+            "spent": 225,
+            "total": 345,
+            "type": "spent",
+            "index": 9
+          },
+          {
+            "amount": 25,
+            "reason": "Endurance",
+            "spent": 250,
+            "total": 345,
+            "type": "spent",
+            "index": 10
+          },
+          {
+            "amount": 50,
+            "reason": "Sort Sommeil mémorisé",
+            "spent": 300,
+            "total": 350,
+            "type": "spent",
+            "index": 11
+          },
+          {
+            "reason": "Choix du début",
+            "amount": 75,
+            "spent": 300,
+            "total": 420,
+            "type": "total",
+            "index": 12
+          },
+          {
+            "amount": "100",
+            "reason": "Changement de carrière: Sorcier dissident",
+            "spent": 400,
+            "total": 420,
+            "type": "spent"
+          }
+        ]
+      },
+      "personal-ambitions": {
+        "short-term": "",
+        "long-term": ""
+      },
+      "party-ambitions": {
+        "name": "",
+        "short-term": "",
+        "long-term": ""
+      },
+      "motivation": {
+        "value": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "career": {
+        "value": ""
+      },
+      "careerlevel": {
+        "value": ""
+      },
+      "age": {
+        "value": "24"
+      },
+      "height": {
+        "value": "173"
+      },
+      "weight": {
+        "value": ""
+      },
+      "haircolour": {
+        "value": "Brun clair"
+      },
+      "eyecolour": {
+        "value": "Gris"
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "starsign": {
+        "value": ""
+      },
+      "mainHand": "r"
+    }
+  },
+  "items": [
+    {
+      "_id": "0CwV96kTDRF0jUhk",
+      "name": "Divertissement",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Entertain ()"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de ravir les foules par la parole, peut-être en chantant, en jouant la comédie ou en faisant quelques blagues. Une utilisation réussie de la Compétence Divertissement signifie que vous avez assez amusé les spectateurs alentour pour qu'ils vous écoutent ; le DR indique à quel point vous avez réussi.</p><p>En combat, il est peu probable que Divertissement soit d'une grande utilité, bien que vous puissiez trouver une façon intéressante d'utiliser Divertissement(Comédie) pour troubler ou leurrer vos adversaires.</p><p><strong>Spécialisations: </strong>Chant, Comédie, Interprétation, Narration</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560810,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "1jCxbFAUuFuAPLJl",
+      "name": "Esquive",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Dodge"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>L'Esquive est votre capacité à éviter les objets, en esquivant, plongeant ou en vous déplaçant rapidement. Elle est beaucoup utilisée pour éviter les chutes de pierre, les coups portés, les pièges inattendus, etc.</p><p>En combat, l'Esquive est généralement utilisée pour résister aux attaques ou éviter les Dégâts.Référez-vous au <strong>Chapitre 5 : Règles</strong> pour plus d’informations à ce sujet.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560825,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "4IGdIhnwTaZijzg7",
+      "name": "Emprise sur les animaux",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Charm Animal"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s'agit de votre aptitude à vous lier d'amitié, à calmer rapidement ou à asservir les animaux.</p><p>Un Test réussi d'Emprise sur les animaux vous permet d'influencer le comportement d'un ou plusieurs animaux, jusqu'à un maximum égal à votre Bonus de Force Mentale + DR. Si les cibles animales sont naturellement dociles, ce Test peut être incontesté, mais il est généralement opposé à la Force Mentale de la cible.</p><p>En combat, vous pouvez utiliser Emprise sur les animaux lorsque vous affrontez des animaux. Si vous réussissez, aucune cible affectée ne vous attaquera durant ce round et vous gagnez +1 Avantage. Vous pouvez le faire pendant autant de Rounds successifs que vous le souhaitez, jusqu'à ce que vous décidiez d'arrêter ou ratiez un Test d'Emprise sur les animaux. Après quoi l'instinct de la créature reprend le dessus et vous n'avez plus d'influence.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560850,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "4mJoPBw4drm1kv2D",
+      "name": "Corps à corps",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Melee (Fencing)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Corps à corps représente l'entraînement spécifique que vous avez reçu avec un seul type d'armes de combat rapproché. Chaque Spécialisation de Corps à corps indique un entraînement à une classe d'arme spécifique. Si vous n'avez pas la Spécialisation appropriée pour une arme que vous souhaitez utiliser, référez-vous au <strong>Chapitre 11 : Guide de l'équipement </strong>pour consulter les statistiques de l'arme et savoir quelles pénalités vous subirez. Voir <strong>Chapitre 5 : Règles </strong>pour plus d'informations sur les combats et l'utilisation de la Compétence Corps à corps.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ws"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560856,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "7pQo66cESWttzIlb",
+      "name": "Pari",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Gamble"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet d’évaluer la probabilité qu’un pari porte ses fruits, et de participer avec succès à différents jeux de hasard.</p><p>Lors d’un pari, tous les Joueurs effectuent un Test de Pari – en appliquant tous les modificateurs appropriés pour leur connaissance du jeu – et le Joueur qui obtient le DR le plus haut l’emporte. En cas d’égalité, tous les Joueurs ayant les scores les plus faibles se retirent, et les Joueurs restants effectuent un autre Test de Pari, en répétant ce processus jusqu’à ce qu’un Joueur l’emporte.</p><p>Si vous souhaitez influencer le jeu par des procédés moins honnêtes, voir @Compendium[wfrp4e-core.items.rvd0S8Z0v2m0MHmD].<blockquote><h4>Option</h4>Certains Joueurs préfèrent utiliser des mini-jeux immersifs à la table, jouant à de vrais jeux de cartes ou de dés pour faciliter l’interprétation. Si vous optez pour cette solution, un Test de Pari réussi vous permettra d’influencer le jeu – en piochant, par exemple, une carte supplémentaire ou en relançant un dé – comme décidé par le MJ. Chaque DR vous accorde une opportunité supplémentaire d’influencer le jeu.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560881,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "AaXk4bfDRTPeeYjn",
+      "name": "Art",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-dex.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Art (Tattoo)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Créez des œuvres d'art avec le moyen d'expression de votre choix.</p><p>Ne pas avoir accès aux Outils de la profession appropriés entraînera une pénalité à vos Tests. Le DR obtenu détermine la qualité de l'œuvre finale. Un Test étendu peut être nécessaire pour la réalisation d'une œuvre d'art complexe ou de grande taille. La Compétence Art est peu utilisée en combat, mais les bustes de marbre peuvent faire de formidables armes improvisées.</p><p><strong>Exemple</strong> : <em>Irina a reçu une commande pour peindre le portrait d'un noble local, dont son groupe cherche à obtenir les faveurs. Son MJ décide que cela nécessite un total de 10 DR à un Test étendu d'Art, et chaque Test représente une semaine de travail.</em></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "dex"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560905,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "CcNJsS4jSwB6Ug1J",
+      "name": "Résistance",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Endurance"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Résistance est sollicitée quand vous devez supporter des conditions difficiles, faire face à la privation, attendre sans bouger pendant une longue période de temps, ou survivre dans des environnements hostiles. Plus spécifiquement, les Tests de Résistance servent à résister ou à vous remettre de différents États (voir page 167) et vous aident à récupérer vos Points de Blessure perdus. Référez-vous au <strong>Chapitre 5 : Règles</strong> pour plus d’informations à ce sujet.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560924,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "Fs06sr7y9JKpVQmB",
+      "name": "Perception",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Perception"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à percevoir des choses avec vos sens – la vue, l’odorat, l’ouïe, le toucher et le goût, et tout autre sens comme des sens magiques ou non humains. Votre MJ peut vous demander d’effectuer un Test de Perception pour détecter quelque chose, comme un mouvement derrière la ligne des arbres, la présence d’un piège ou quelqu’un qui vous suit, modifié par la facilité à le remarquer. La Perception est aussi utilisée pour résister aux tentatives pour dissimuler des choses par le biais de Compétences telles qu’Escamotage ou Discrétion.</p>La Perception a de nombreuses utilités en combat, le plus souvent pour remarquer des détails importants, au-delà de ce qui est évident dans l’environnement alentour et vos adversaires, comme déterminé par le MJ<p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560948,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "I0yPc4PH5erWJLmu",
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Intimidate"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de contraindre ou d’effrayer des créatures douées de conscience. La manière précise d’initier un Test d’Intimidation dépend du contexte : bien qu’il soit généralement accompagné d’une menace non dissimulée, il peut s’agir parfois d’une allusion subtile ou même d’un simple regard. L’Intimidation est presque toujours opposée à la Compétence Calme de votre cible ; sur un succès, vous pouvez intimider un nombre de cibles égal à votre Bonus de Force + DR. Chaque cible réagira à l’Intimidation en fonction de sa propre personnalité et de la façon dont vous avez réussi à la menacer, mais dans tous les cas, elle fera marche arrière ou s’écartera du chemin et ne vous dénoncera pas, ou bien considérera que le combat est la seule solution et préparera ses armes.</p><p>En combat, vous provoquez la @Compendium[wfrp4e-core.items.Ib2YQYChktDFN93y]{Peur} chez toutes les cibles Intimidées. Vous pouvez aussi utiliser votre Compétence Intimidation à la place de Corps à corps quand vous vous défendez face à ceux qui ont peur de vous, obligeant les personnes intimidées à quitter le combat par votre volonté et votre seule posture. Par ailleurs, avec l’accord de votre MJ, vous pouvez utiliser Intimidation pour « attaquer » de telles cibles, en dictant des ordres précis, comme « lâche ton arme » ou « dégage de là ». Cependant, si vous échouez à l’un de ces Tests d’Intimidation ultérieurs, vous n’intimidez plus (ou ne causez plus de la @Compendium[wfrp4e-core.items.Ib2YQYChktDFN93y]{Peur}) les adversaires affectés. Avec l’accord de votre MJ, vous pouvez tenter de les Intimider de nouveau lors d’un prochain Round, mais cela entraîne un modificateur négatif, puisqu’ayant déjà constaté vos fanfaronnades, ils sont moins susceptibles de vous craindre.</p><blockquote><h4>Option : Caractéristiques alternatives pour l'Intimidation</h4>Bien que la Force soit la statistique par défaut pour les Tests d’Intimidation, le MJ peut juger que certaines situations vous permettent d’utiliser une Caractéristique différente : un Répurgateur acharné peut, par exemple, utiliser la Force Mentale pour dissuader un passant indiscret, ou un universitaire peut utiliser l’Intelligence pour intimider un simple étudiant avec ses impressionnantes connaissances.</blockquote><p><strong>Exemple: </strong><em>Face à un groupe de tire-laine, Svetlana la Puissante obtient 4 DR à son Test d’Intimidation. Combiné à son BF de 5, cela signifie qu’elle peut affecter jusqu’à 9 cibles, bien plus que suffisant pour affecter les trois tire-laine qui ont à présent Peur de Svetlana. Comme elle a gagné de 3 DR, elle gagne également +1 Avantage jusqu’à la fin de son prochain tour. Au Round suivant, elle « attaque » les tire-laine en utilisant son Intimidation, dans l’intention de les effrayer jusqu’à ce qu’ils la laissent tranquille. Cependant, elle échoue au Test, et les tire-laine réalisent qu’ils sont plus nombreux qu’elle, et armés…</em></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560959,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "KL4pCOqma5E7fLG4",
+      "name": "Ramer",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Row"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agir de votre adresse à manier une pagaie et à diriger un bateau sur l’eau. La Compétence Ramer est généralement utilisée lors des courses-poursuites, pour traverser des rapides, éviter désespérément des pieuvres des tourbières, ou pour des prouesses inhabituelles, ou dangereuses, similaires. Quiconque possède la Compétence est automatiquement considéré comme capable de filer habilement sur un étang ou une rivière calme sans Test. Ceux qui ne possèdent pas la Compétence peuvent devoir effectuer un Test, sauf pour les manœuvres de base.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560967,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "LGHozP5gmQ8cuDQV",
+      "name": "Athlétisme",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Athletics"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s'agit de votre capacité à courir, sauter, à vous déplacer avec rapidité et grâce, et à effectuer toute activité physique générale. Référez-vous à <strong>Déplacement</strong> (voir page 164) pour plus de détails sur l'utilisation de l'Athlétisme en mouvement de combat.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560970,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "McTtmZu3Ac8Lh48W",
+      "name": "Discrétion",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Stealth ()"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de vous glisser sournoisement et de vous dissimuler dans les ombres plus facilement que la plupart des gens. Discrétion est généralement opposée à la Compétence Perception de votre adversaire, et les Tests seront modifiés en fonction de l’obscurité ou de la façon dont votre itinéraire est dissimulé, ainsi que par le soin que vous avez mis à vous habiller ou non en conséquence. Un Échec Impressionnant ou Stupéfiant à un Test de Discrétion attirera probablement et immédiatement l’attention des ennemis que vous essayiez en premier lieu d’éviter.<p>Discrétion a beaucoup d’applications potentielles en combat, la plupart utiles pour se dissimuler lors de la préparation d’une Embuscade, ou pour vous glisser derrière un adversaire afin de le prendre à revers. Voir le <strong>Chapitre 5 : Règles</strong> pour plus d’informations sur les conséquences de cette action. Bien sûr, vous pouvez aussi utiliser la Compétence pour fuir un conflit sans être vu…</p><strong>Spécialisations :</strong> Rurale, Souterrains, Urbaine.<h4>Option : Filature</h4><p>La Filature est le fait de suivre quelqu'un discrètement. Cela nécessite un Test Combiné de <strong>Perception</strong> et <strong>Discrétion</strong> (voir page 155). Si la cible essaye activement de brouiller les pistes, le Test est opposé à la Compétence Discrétion de la cible.<p>Si vous réussissez le Test de Perception et échouez au Test de Discrétion, vous suivez la cible, mais vous êtes repéré. Si vous échouez au Test de Perception, mais réussissez le Test de Discrétion, vous perdez votre cible, mais vous passez inaperçu.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560976,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "MeXCAQ3wqJzX07X7",
+      "name": "Chevaucher",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Ride ()"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>C'est la façon dont vous maîtrisez le fait de chevaucher un groupe particulier d'animaux ; Chevaucher (Cheval), par exemple, vous permettra de monter des chevaux, des mules, des ânes et autres animaux similaires. Vous aurez besoin de faire un Test uniquement lorsque vous voudrez effectuer quelque chose d'inhabituel, comme une course, du dressage, traverser un terrain dangereux ou charger en combat. Autrement, si vous possédez la Compétence, vous êtes considéré comme capable de chevaucher sans avoir besoin de Test.</p><p>Si vous êtes monté sur un destrier, vous vous déplacez en utilisant les statistiques de Mouvement du destrier ; si vous voulez courir, sauter, ou bondir, vous utilisez votre compétence Chevaucher, et pas Athlétisme. Un Test de Chevaucher étendu peut être nécessaire si vous vous rendez quelque part, le DR cible dépendant de la longueur du voyage, et le nombre de Tests indiquant combien de temps vous mettez à arriver. Un Test de Chevaucher peut être modifié par les conditions environnementales et le tempérament de la monture. Pour plus d'information sur les montures, voir le Chapitre 12 : Bestiaire. Le Compétence Chevaucher peut être activement utilisée en combat. Voir Chapitre 5 : Règles pour plus d'informations sur le combat monté.</p><p><strong>Spécialisations : </strong>Cheval, Grand Loup, Griffon, Hippogriffe, Pégase</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560977,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "R2ytluHiEFF2KQ5e",
+      "name": "Résistance à l'alcool",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Consume Alcohol"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à consommer de l’alcool sans que cela n’obscurcisse votre jugement ou ne vous rende déraisonnable.<p>Après chaque boisson alcoolisée, faites un Test de Résistance à l’alcool, modifié par la puissance de la boisson. Pour chaque Test auquel vous échouez, vous subissez une pénalité de -10 à vos CC, CT, Ag, Dex et Int, jusqu’à un maximum de -30 par Caractéristique. Si vous échouez à un nombre de Tests égal à votre Bonus d’Endurance, vous êtes Ivre. Faites un lancer sur le tableau @Compendium[wfrp4e-core.tables.1zRhcz5jHS1W1xHt]{Ivre-Mort} pour en connaître les conséquences.<p>Après une heure passée sans boire, effectuez un Test de <strong>Résistance à l’alcool Intermédiaire (+0)</strong>. Les effets de l’ivresse se dissiperont après 10-DR heures, et tous les modificateurs de Caractéristiques disparaîtront après ce délai. Une fois tous les effets dissipés, effectuez un nouveau Test de <strong>Résistance à l’alcool Intermédiaire (+0)</strong>. Vous avez à présent la gueule de bois, qui correspond à l’État @Condition[Extenué]{Exténué} et ne peut pas être retiré pendant 5 – DR heures.<p>Vous pouvez dépenser 1 Point de Détermination pour ignorer les modificateurs négatifs de l’ivresse jusqu’à la fin du prochain Round (voir page 171).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560993,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "RLQHm1s4IuY9RSr2",
+      "name": "Ragot",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Gossip"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de dénicher rapidement des informations utiles et intéressantes, et de répandre vos propres rumeurs. Un Test de Ragot réussi signifie que vous avez trouvé un renseignement utile, que votre MJ peut vous transmettre, au sujet de la région. Chaque DR vous offre soit un renseignement supplémentaire, soit la possibilité de répandre une rumeur auprès d’un nombre d’individus égal à votre Bonus de Sociabilité. Le temps nécessaire pour un Test de Ragot dépend combien les Joueurs sont circonspects, et comment la région est peuplée, ce qui est décidé par le MJ.<p>Il est peu probable que Ragot puisse être utile en combat, mais si votre attaquant se trouve être de la région et que vous savez quelque chose de vraiment croustillant…</p><blockquote><h4>Chuchotements</h4>Même si partager les informations glanées grâce à des Tests de Ragot avec tous les Joueurs en même temps puisse être commode pour le MJ, il est aussi souvent plus plaisant de ne partager les informations qu’individuellement, Joueur par Joueur (par une note ou en s’entretenant rapidement avec eux à part). Cela signifie que les Joueurs doivent relier les informations entre elles – favorisant l’immersion et l’interprétation –, ce qui peut provoquer des erreurs et des malentendus, menant parfois à des résultats hilarants, ou épouvantables.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560994,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "cYtU0ORRFCOpQLWz",
+      "name": "Intuition",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Intuition"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>LLa Compétence Intuition vous permet de percevoir ce qui vous entoure, de remarquer quand quelque chose ne va pas, et de ressentir quand des gens vous cachent quelque chose. Une utilisation réussie de la Compétence Intuition vous donne des renseignements subtils et implicites concernant votre environnement, déterminés par votre MJ. Cela peut être une information, comme savoir si quelqu’un est convaincu de la véracité de ses propos, quelle est l’attitude générale envers le noble local, ou est-ce que les intentions des gens du coin, si serviables, sont aussi pures qu’elles le paraissent. Si quelqu’un essaye activement de dissimuler ses intentions, il peut résister à votre Intuition avec Calme ou Divertissement (Interprétation).</p><p>En combat, un Test d’Intuition réussi peut être utilisé pour vous donner +1 Avantage puisque vous évaluez l’environnement et vos adversaires. Vous pouvez continuer à renforcer votre Avantage lors des tours suivants à condition que vous soyez capable d’observer vos cibles et que vous ne soyez pas interrompu (en étant attaqué par exemple) ; de cette façon vous pouvez gagner un maximum d’Avantages égal à votre Bonus d’Intelligence.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561040,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "d3VZwO4Y5JH5DXdT",
+      "name": "Subornation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bribery"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à juger de la probabilité qu’une personne accepte ou non un pot-de-vin, et de la meilleure façon de lui présenter la chose pour qu’elle l’accepte.<p>Un Test de Subornation réussi vous indique si une cible peut être soudoyée. Si oui, votre MJ détermine secrètement le prix de sa coopération en utilisant le Revenu de la cible (voir page 52), en augmentant le montant en fonction de son honnêteté habituelle et du risque encouru en acceptant le pot-de-vin. Puis vous estimez ce montant cible et le MJ vous indiquera si le prix est supérieur, inférieur ou égal. Chaque DR obtenu lors de votre Test de Subornation vous offre une estimation supplémentaire. À la fin de ce processus, vous déterminez combien d’argent offrir, en vous basant sur les informations obtenues.<p><strong>Exemple : </strong><em>Snorri tente de soudoyer un Garde pour qu’il le laisse passer ; il s’agit d’un Personnage Bronze 2, ce qui signifie qu’il a un Revenu de 4d10 sous de cuivre. Le MJ décide que le garde peut être soudoyé et obtient secrètement 21 sur les 4d10, indiquant que le prix pour soudoyer le garde est de 21 sous de cuivre. Laisser passer Snorri n’est pas trop risqué pour le Garde, il le fait d’ailleurs souvent, le MJ n’augmente donc pas le pot-de-vin nécessaire. Snorri a obtenu 1 DR à son Test de Subornation ; il sait donc que le Garde est réceptif au pot-de-vin, et a 2 estimations pour trouver le prix. La première estimation de Snorri est de 15 sous de cuivre, ce à quoi son MJ répond « Supérieur ». Sa seconde estimation se monte à 40, ce à quoi son MJ répond « Inférieur ». Snorri sait à présent qu’il doit verser un pot-de-vin au garde compris entre 15 et 40 sous de cuivre. Il décide de viser haut et offre 30 sous de cuivre. Le sourire aux lèvres, le Garde fait traverser Snorri.</em><p>En combat, vous pouvez utiliser ainsi Subornation pour essayer d’arrêter le combat, mais considérez le Test comme Difficile (-20) à cause du stress de la situation. Si votre cible n’est pas réceptive, vous ne pouvez pas offrir de pot-de-vin, ou si votre cible ne parle pas votre langue, vos tentatives pathétiques de l’acheter resteront vaines. Évidemment, s’ils ont l’avantage du nombre, qu’est-ce qui pourrait les empêcher de prendre tout votre argent ?</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561041,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "exLrBrn2mjb6x2Cq",
+      "name": "Charme",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Charm"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Le Charme incite les gens à avoir une bonne opinion de vous, de vos points de vue et des actions proposées.</p><p>Réussir un Test opposé de <strong>Charme/Calme</strong> vous permet d'influencer l'attitude d'une ou plusieurs cibles, jusqu'à un maximum égal à votre Bonus de Sociabilité + DR, affectant en premier la cible ayant la Force Mentale la plus faible. Si une cible est favorable à votre Charme, le Test sera incontesté.</p><p>Votre MJ peut vous autoriser à utiliser le Charme en Combat, s'il pense que vos ennemis pourraient être sensibles à votre façon d'implorer pour votre vie ou à des arguments persuasifs pour faire cesser les violences (bonne chance pour charmer un gobelin !)</p><p>Si vous utilisez Charme comme Action, calculez normalement le nombre de cibles potentielles. Si vous vous en servez pour vous défendre, l'Action n'affecte que votre adversaire. Sur un succès, les cibles charmées ne vous attaqueront pas pendant ce round et vous gagnez +1 Avantage normalement. Vous pouvez répéter l'action sur plusieurs rounds jusqu'à ce que vous arrêtiez ou échouiez, après quoi vos paroles n'auront plus aucune incidence.<blockquote><h4>Parler en Public</h4>La Compétence Charme peut être utilisée pour faire un discours saisissant dans le but de faire pencher plusieurs cibles en faveur de votre façon de penser. En admettant qu’ils vous entendent et qu’ils soient enclins à vous écouter, vous pouvez influencer un nombre de cibles égal à votre Bonus de Sociabilité + DR avec un seul Test de Charme, influençant en premier les cibles avec la Force Mentale la plus faible. Si la foule est déchaînée, ou non réceptive à votre discours, le Test est opposé à la Force Mentale moyenne de la foule (en général 35). Un échec indique que la foule n’est pas convaincue<p>Les Talents <strong>@Compendium[wfrp4e-core.items.XU7D9CCmumuhqDUi]</strong> et <strong>@Compendium[wfrp4e-core.items.ZWcTbeK8i9vKph2a]</strong> peuvent augmenter de façon significative le nombre de personnes que vous affectez avec Charme. Obtenir un Échec Stupéfiant à un Test de Charme signifie que votre auditoire se transforme rapidement en foule en colère, et vous êtes la cible de son courroux.</blockquote><blockquote><h4>Mendier</h4>La Compétence de Charme peut être utilisée pour mendier dans les rues. Un Test réussi vous vaudra un nombre de sous de cuivre égal à votre Bonus de Sociabilité x DR par heure de la part des passants, dont la Difficulté est modifiée par le discours choisi pour mendier et à quel point votre apparence peut susciter la sympathie. Si vous n’obtenez pas de DR, mais que vous réussissez quand même le Test, vous ne réussissez à glaner qu’un sou. Un Échec Stupéfiant (-6) signifie que vous vous êtes peut-être attiré des ennuis avec les gardes locaux, ou avec d’autres mendiants du coin, ou que vous avez essuyé d’importants échecs.<p><strong>Remarque</strong>: les Personnages surpris à mendier par leurs pairs ou associés perdront probablement leur Statut, à moins qu’ils n’aient déjà une Carrière de Mendiant, ou une autre Carrière sans ressources.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 3,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561048,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "iYan4z52v7HYM9u9",
+      "name": "Conduite d'attelage",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Drive"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Conduite d'attelage vous permet de conduire les véhicules - le plus souvent de simples chariots et de lourdes diligences, sans parler des créations plus « expérimentales » des Ingénieurs impériaux - sur les routes de l'Empire avec aussi peu d'incidents que possible.<p>Dans des circonstances normales, si vous possédez la Compétence Conduite d'attelage, aucun Test n'est nécessaire. Si les conditions sont moins idéales - peut-être la route est-elle en mauvais état ou si la météo est détestable -, un Test de Conduite d'attelage est nécessaire. Si vous ne possédez pas la Compétence Conduite d'attelage, un Test sera peut-être nécessaire pour effectuer des manœuvres même basiques. Un Échec Stupéfiant (-6) à un Test de Conduite d'attelage signifie que quelque chose de grave s'est produit. Faites un lancer sur le tableau suivant Dans des circonstances normales, si vous possédez la Compétence Conduite d’attelage, aucun Test n’est nécessaire. Si les conditions sont moins idéales – peut-être la route est-elle en mauvais état ou si la météo est détestable –, un Test de Conduite d’attelage est nécessaire. Si vous ne possédez pas la Compétence Conduite d’attelage, un Test sera peut-être nécessaire pour effectuer des manœuvres même basiques. Un Échec Stupéfiant à un Test de Conduite d’attelage signifie que quelque chose de grave s’est produit. Faites un lancer sur le tableau @Compendium[wfrp4e-core.tables.w1hLPRX2e30ZnXKq].</p><strong>Accident </strong>: Les occupants de véhicules Accidentés subissent généralement 2d10 Points de Blessure modifiées par le Bonus d’Endurance et les PA, sauf si le véhicule roulait doucement (déterminé par le MJ). Les véhicules Accidentés doivent être réparés par quelqu’un possédant la Compétence de Métier appropriée, comme Métier (Charpentier) ou Métier (Charron). Une roue de secours peut être installée par n’importe qui avec un Test de Conduite d’attelage ou un Test du Métier approprié.<p>En combat, la Conduite d’attelage peut être utilisée si les circonstances le permettent – par exemple, si le groupe se trouve dans une diligence attaquée par des hors-la-loi, et que vous souhaitiez percuter un ennemi ou les distancer (voir page 165).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561062,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "oMaJZ5cvCJeOUq9H",
+      "name": "Commandement",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Leadership"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>C’est une indication de votre capacité à diriger les autres et à vous faire respecter. Le plus souvent associée à des situations martiales, un meneur déterminé peut toutefois réagir rapidement lors d’un incendie ou autre catastrophe, et les nobles utilisent fréquemment la Compétence pour commander leurs subordonnés.<p>Un Test de Commandement réussi vous permet de donner des ordres à un nombre de cibles égal à votre Bonus de Sociabilité + DR. Si les cibles sont vos subordonnés directs – un noble commandant un serf ou un sergent dirigeant ses troupes – les ordres ne rencontrent aucune opposition. S’il n’y a pas de hiérarchie en place, ou que l’ordre est particulièrement exigeant – comme ordonner à vos soldats de charger la tête d’une hydre – le Test est opposé au Calme de vos cibles.<p>En combat, vous pouvez utiliser Commandement pour encourager vos subalternes. Un Test de Commandement réussi confère un bonus de +10 à tous les Tests de Psychologie jusqu’à la fin du prochain Round (voir page 190).<p>Par ailleurs, Commandement peut être utilisé pour transférer un Avantage à des alliés capables de vous entendre ; après un Test de Commandement réussi, vous pouvez transférer un Avantage à un allié de votre choix, et +1 Avantage par DR obtenu, qui peut de nouveau être alloué aux alliés de votre choix à portée de voix.<p><strong>Exemple :</strong><em>Lord Ludwig von Schemp a regardé ses deux gardes du corps discuter avec des voyous pendant trois Rounds, utilisant sa Compétence Intuition pour cumuler 3 Avantages. Sentant que la situation ne va nulle part, il lance un ordre péremptoire pour attaquer le chef de file ; réussissant son Test avec 5 DR, il donne 2 Avantages à l’un de ses gardes du corps et 1 Avantage à l’autre, espérant que cela mette rapidement fin à l’affaire.</em><blockquote><h4>C'est qui le chef ?</h4>Les MJ doivent être conscients que le fait que des Joueurs donnent des ordres à d’autres Joueurs peut causer des tensions au sein du groupe. Si vous avez des Joueurs avec des classes sociales ou des rangs militaires différents, faites en sorte de discuter de la façon dont cela se répercutera sur la dynamique du groupe pour garantir un jeu fluide et agréable pour tout le monde.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561085,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "os4NKy5Oy6sRt1eh",
+      "name": "Survie en extérieur",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Outdoor Survival"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Survie en extérieur est utilisée pour la survie dans la nature, et comprend la capacité de pêcher, de chasser, de rechercher de la nourriture, de faire un feu et de construire un abri. Les voyageurs expérimentés sont doués pour repérer les signes d’un changement de météo et les excréments de nombreuses bêtes dangereuses.<p>Quand vous campez, faites un Test de Survie en extérieur, modifié par la rudesse des conditions – par exemple, un Test est <strong>Intermédiaire (+0)</strong> s’il pleut, <strong>Difficile (-20)</strong> lors d’une tempête. Un Test réussi indique que vous pouvez vous procurer de la nourriture et un abri pour la nuit. Chaque DR vous permet de procurer l’équivalent pour un Personnage de plus. Si le Test échoue, vous devez faire un Test de <strong>Résistance Intermédiaire (+0)</strong> ou recevoir l’État @Condition[Extenué]{Exténué}. Si vous subissez un Échec Stupéfiant, quelque chose de fâcheux est arrivé, déterminé par le MJ ; peut-être votre camp est-il attaqué pendant la nuit ?</p><p>Quand vous combattez dans la nature sauvage, vous pouvez effectuer un Test de Survie en extérieur pour recevoir +1 Avantage, de la même façon qu’avec Intuition, pour un nombre maximum d’Avantages égal à votre Bonus d’Intelligence, car vous repérez les terrains dangereux ou intéressants pour les utiliser à votre Avantage.<blockquote><h4>Option : Trouver de la nourriture et des herbes</h4>Trouver de la nourriture et des herbes prend en temps normal environ 2 heures. Les équipes de chasse et de recherche de nourriture effectuent un Test de <strong>Survie en extérieur Soutenu</strong> pour le groupe, dont la Difficulté est déterminée par les circonstances.<ul><li><strong>Recherche de nourriture : </strong>Un succès procure suffisamment de nourriture pour un Personnage. Chaque DR procure assez de nourriture pour une personne de plus ;</li><li><strong>Chasser et pêcher : </strong>Si vous possédez des arcs, lances, cannes à pêche ou filets appropriés, un Test réussi permet de nourrir deux personnes, et deux personnes supplémentaires par DR ;</li><li><strong>Piégeage : </strong>Utilisez la Compétence @Compendium[wfrp4e-core.items.HngrTVqKis08Nvcf] pour placer des pièges pour Animaux. Permet de nourrir le même nombre de personnes que <strong>Chasser et pêcher</strong> ;</li><li><strong>Savoir (Herbes) : </strong>Si vous préférez cueillir des herbes en utilisant @Compendium[wfrp4e-core.items.DRO5DLF6UcfkvNSh]{Savoir (Herbes)}, un succès permet de ramasser une dose de l'herbe recherchée (voir page 307), et chaque DR ajoute une dose supplémentaire. Les Tests de cueillette sont modifiés en fonction de la Disponibilité des herbes : Commune (0), Limitée (-10), Rare (-20) ou Exotique (-30).</li></ul></blockquote>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561088,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "pKLMbmG3Ivt6mzMf",
+      "name": "Marchandage",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Haggle"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Marchandage vous permet d'obtenir de meilleures offres lorsque vous négociez avec autrui. En général, Marchandage est utilisé pour savoir si vous faites, ou non, une bonne affaire, la plupart du temps grâce à un Test opposé de <strong>Marchandage</strong>. De façon plus spécifique, cette Compétence peut être utilisée quand vous parcourez les échoppes pour trouver les meilleurs prix. Pour plus d'informations à ce sujet, référez-vous au <strong>Chapitre 11 : Guide de l'équipement.</strong></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561089,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "pxNjTxsp1Kp0SmQe",
+      "name": "Calme",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Cool"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Calme vous permet de rester serein sous la pression, de résister à la peur quand vous affrontez l'horreur, et à vous en tenir à vos convictions.</p><p>Le Calme est en général utilisé pour résister aux autres Compétences - Charme, Intimidation et autres Compétences similaires -, mais vous devrez peut-être aussi faire un Test de Calme face à quelque chose qui vous oblige à agir contre votre volonté. Le Calme est aussi la principale Compétence utilisée pour résister aux effets de la Psychologie (voir page 190).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561091,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "sRuMlaPU5xdIrwhd",
+      "name": "Escalade",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Climb"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à grimper sur des surfaces lisses ou verticales. Si le temps n’est pas un problème, et que l’escalade est relativement facile, quiconque possède la Compétence Escalade est automatiquement considéré comme capable d’escalader n’importe quelle petite hauteur raisonnable.</p><p>Dans tous les autres cas, référez-vous à la page 165 qui gère aussi l’Escalade pendant le combat. Vous pouvez même vous retrouver à escalader de grands adversaires, même si dans ce cas la notion de prudence reste discutable. </p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561099,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "zZUX7wO4rOo8k9F0",
+      "name": "Orientation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Navigation"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>L’Orientation vous permet de trouver votre chemin dans la nature en utilisant des repères, des corps stellaires ou des cartes. Posséder la Compétence Orientation signifie que vous savez à peu près où vous vous trouvez, et pouvez déterminer votre chemin grâce à des repères bien connus sans effectuer de Test. Un Test est nécessaire uniquement si vous êtes désorienté ou que vous voyagez loin des sentiers battus. Une réussite vous indique alors la bonne direction ou vous permet d’éviter les mésaventures.</p><p>Si vous parcourez un long trajet, votre MJ peut vous demander d’effectuer un Test d’Orientation étendu, modifié par les conditions météo, les repères visibles, et l’accès à des informations géographiques fiables. Le DR nécessaire pour réussir dépend de la distance à laquelle se trouve la destination, et chaque Test représente entre une heure et une journée de voyage, en fonction de la nature du trajet.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561125,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "bSWoV1IiS5qWNw39",
+      "name": "Évaluation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Evaluate"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.bSWoV1IiS5qWNw39"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Évaluation vous permet de déterminer la valeur d'artefacts rares, de marchandises inhabituelles et d'œuvres d'art. Tout le monde est supposé connaître la valeur relative d'objets ordinaires, mais une utilisation réussie d'Évaluation vous permet de déterminer la valeur d'objet étranges et spécifiques. Un Test d'<strong>Évaluation</strong> réussi peut aussi vous indiquer si les marchandises (ou pièces) que vous analysez sont contrefaites - ce Test est généralement opposé au DR du Test d'Art ou de Métier du faussaire. Votre MJ peut appliquer des modificateurs basés sur la rareté ou la méconnaissance de l'objet, ou sur les Compétences spécifiques de votre Personnage ou son passé.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 3,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639513802,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "name": "Langue (Bretonnian)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Language ()"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Langue indique votre aisance avec différentes langues. Tous les Personnages sont considérés comme capables de parler le « reikspiel » – la langue de l’Empire – et leur langue maternelle (si votre Personnage en possède une différente du reikspiel), sans avoir besoin de faire de Test. Si votre partie ne se déroule pas dans l’Empire, remplacez le reikspiel par la langue locale. <p>Si vous possédez l’une de ces Compétences, vous êtes généralement capable de vous faire comprendre dans cette langue, ou de comprendre des concepts simples. Vous serez amené à faire un Test de votre Compétence de Langue quand un concept particulièrement difficile doit être transmis, ou qu’un dialecte ou vocabulaire obscur est utilisé.<p><strong>Remarque : </strong>Langue (Magick) est utilisée pour lancer des Sorts et peut, de temps à autre, nécessiter un Test avec... des conséquences fâcheuses en cas d'échec. Référez-vous au <strong>Chapitre 8 : Magie</strong> pour plus d'information à ce sujet.</p><p><strong>Spécialisations : </strong>bataille, bretonnien, classique, guilde, khazalid, Magick, voleur, tiléen.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639513470,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0,
+      "_id": "hG4Vcud2YVV95DoZ"
+    },
+    {
+      "_id": "rOPmyLWa37e7s9v6",
+      "name": "Corps à corps (Base)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Melee (Basic)"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.rOPmyLWa37e7s9v6"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Corps à corps représente l'entraînement spécifique que vous avez reçu avec un seul type d'armes de combat rapproché. Chaque Spécialisation de Corps à corps indique un entraînement à une classe d'arme spécifique. Si vous n'avez pas la Spécialisation appropriée pour une arme que vous souhaitez utiliser, référez-vous au <strong>Chapitre 11 : Guide de l'équipement </strong>pour consulter les statistiques de l'arme et savoir quelles pénalités vous subirez. Voir <strong>Chapitre 5 : Règles </strong>pour plus d'informations sur les combats et l'utilisation de la Compétence Corps à corps.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ws"
+        },
+        "advances": {
+          "value": 3,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639515289,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "_id": "ZQSm2AwrgT2cHG0C",
+      "name": "Projectiles (Arc)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-bs.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Ranged (Bow)"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.ZQSm2AwrgT2cHG0C"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Bien que tout le monde puisse lancer une simple pierre en utilisant la Capacité de Tir, il faut de l’entraînement et de la pratique pour utiliser des armes comme des arcs et des pistolets. Chaque Spécialisation de Projectiles représente un groupe particulier d’armes à distance. Si vous ne possédez pas la Spécialisation Projectiles pour une arme dont vous souhaitez user, référez-vous au <strong>Chapitre 11 : Guide de l’équipement</strong> pour voir quelles pénalités vous subirez en l’utilisant. Voir le <strong>Chapitre 5 : Règles</strong> pour plus de détails sur le combat à distance.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "bs"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639513802,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "_id": "V8eRx66SxB9Jha0Q",
+      "name": "Focalisation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Channelling"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.V8eRx66SxB9Jha0Q"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Focalisation mesure votre capacité à faire appel et à contrôler les différents Vents de la Magie. Elle est uniquement utilisée avec les règles sur la magie. Voir le <strong>Chapitre 8 : Magie</strong> pour plus d’informations</p><p>Focalisation est une Compétence très particulière, en cela qu'elle est à la fois Groupée, permettant les Spécialisations, mais aussi non Groupée pour ceux qui ne sont pas correctement formés à focaliser la magie.</p><p><strong>Spécialisations : </strong><em>Aqshy, Azyr, Chamon, Dhar, Ghur, Ghyran, Hysh, Shyish, Ulgu</em> (chacune est un Vent de Magie différent, voir <strong>Chapitre 8 : Magie</strong> pour plus d’informations).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 6,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639513470,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "_id": "e3McIND4Rrsn5cE6",
+      "name": "Langue (Magick)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Language (Magick)"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.e3McIND4Rrsn5cE6"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Langue indique votre aisance avec différentes langues. Tous les Personnages sont considérés comme capables de parler le « reikspiel » – la langue de l’Empire – et leur langue maternelle (si votre Personnage en possède une différente du reikspiel), sans avoir besoin de faire de Test. Si votre partie ne se déroule pas dans l’Empire, remplacez le reikspiel par la langue locale. <p>Si vous possédez l’une de ces Compétences, vous êtes généralement capable de vous faire comprendre dans cette langue, ou de comprendre des concepts simples. Vous serez amené à faire un Test de votre Compétence de Langue quand un concept particulièrement difficile doit être transmis, ou qu’un dialecte ou vocabulaire obscur est utilisé.<p><strong>Remarque : </strong>Langue (Magick) est utilisée pour lancer des Sorts et peut, de temps à autre, nécessiter un Test avec... des conséquences fâcheuses en cas d'échec. Référez-vous au <strong>Chapitre 8 : Magie</strong> pour plus d'information à ce sujet.<strong>Magick : </strong>Parlée par les magiciens ; cette langue sculpte les Vents de la Magie en effets physiques. La forme universitaire de la langue enseignée par les Collèges de Magie est appelée Lingua Praestantia, très éloignés de la forme avilie de la langue utilisée par les sorcières et les non-initiés. On ne s'en sert pas pour communiquer.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 9,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639514149,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "_id": "rvd0S8Z0v2m0MHmD",
+      "name": "Escamotage",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-dex.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sleight of Hand"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.rvd0S8Z0v2m0MHmD"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de faire les poches, d’escamoter des objets, et d’effectuer de petits tours de prestidigitation, ainsi que de tricher aux jeux de hasard. Cette Compétence est en général opposée à la Compétence Perception de votre cible ; une réussite signifie que vous avez pris l’objet, fait les poches, ou échangé les cartes, tandis qu’un Succès Minime peut suggérer que vos mauvais coups ont rendu votre adversaire méfiant.<p>Vous pouvez aussi utiliser Escamotage pour « aider » votre Compétence Pari quand vous jouez à un jeu de hasard approprié. Avant chaque Round (ou équivalent, en fonction du jeu en question), vous pouvez tenter un Test d’Escamotage (qui sera opposé si les autres se méfient). Sur un succès, vous pouvez inverser votre Test de Pari pour le Round si cela entraîne un succès. Sur un échec, vos adversaires peuvent ne pas être franchement ravis…<p>Escamotage et combat se mélangent rarement, bien que des Joueurs inventifs puissent être capables de créer une diversion spectaculaire avec l’accord du MJ, peut-être même gagner un Avantage en faisant surgir une dague de nulle part, surprenant un ennemi superstitieux.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "dex"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639515289,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "_id": "Xk5tp3aasPNtk4zt",
+      "name": "Discrétion (Rurale)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Stealth (Rural)"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de vous glisser sournoisement et de vous dissimuler dans les ombres plus facilement que la plupart des gens. Discrétion est généralement opposée à la Compétence Perception de votre adversaire, et les Tests seront modifiés en fonction de l’obscurité ou de la façon dont votre itinéraire est dissimulé, ainsi que par le soin que vous avez mis à vous habiller ou non en conséquence. Un Échec Impressionnant ou Stupéfiant à un Test de Discrétion attirera probablement et immédiatement l’attention des ennemis que vous essayiez en premier lieu d’éviter.<p>Discrétion a beaucoup d’applications potentielles en combat, la plupart utiles pour se dissimuler lors de la préparation d’une Embuscade, ou pour vous glisser derrière un adversaire afin de le prendre à revers. Voir le <strong>Chapitre 5 : Règles</strong> pour plus d’informations sur les conséquences de cette action. Bien sûr, vous pouvez aussi utiliser la Compétence pour fuir un conflit sans être vu…<h4>Option : Filature</h4><p>La Filature est le fait de suivre quelqu'un discrètement. Cela nécessite un Test Combiné de <strong>Perception</strong> et <strong>Discrétion</strong> (voir page 155). Si la cible essaye activement de brouiller les pistes, le Test est opposé à la Compétence Discrétion de la cible.<p>Si vous réussissez le Test de Perception et échouez au Test de Discrétion, vous suivez la cible, mais vous êtes repéré. Si vous échouez au Test de Perception, mais réussissez le Test de Discrétion, vous perdez votre cible, mais vous passez inaperçu.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1714639513470,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "_id": "CdtS9DEUXhDsmsrF",
+      "name": "Ensorceleur",
+      "type": "career",
+      "img": "modules/wfrp4e-core/icons/careers/witch-01.png",
+      "effects": [],
+      "folder": "dmeXXc2Fvthp6IZR",
+      "sort": 9400000,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Hexer"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.MsrHDvVgAb8tUJec"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.7lNzR0hDPl98NrcX]{Sorcier dissident}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "careergroup": {
+          "value": "Sorcier dissident"
+        },
+        "class": {
+          "value": "Roublards"
+        },
+        "current": {
+          "value": false
+        },
+        "complete": {
+          "value": true
+        },
+        "level": {
+          "value": 1
+        },
+        "status": {
+          "tier": "b",
+          "standing": 1
+        },
+        "characteristics": [
+          "ws",
+          "t",
+          "wp"
+        ],
+        "skills": [
+          "Focalisation",
+          "Calme",
+          "Résistance",
+          "Ragot",
+          "Intimidation",
+          "Langue (Magick)",
+          "Escamotage",
+          "Discrétion (Rurale)"
+        ],
+        "talents": [
+          "Criminel",
+          "Diction Instinctive",
+          "Menaçant",
+          "Magie Mineure"
+        ],
+        "trappings": [
+          "Bougies",
+          "Craie",
+          "Poupée",
+          "Épingles"
+        ],
+        "incomeSkill": [
+          5
+        ]
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691215526544,
+        "modifiedTime": 1715804102988,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      }
+    },
+    {
+      "name": "Destinée",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/doomed.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.fn8QNQQ1S2rh12Us"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Doomed"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>À l'âge de 10 ans, un Prêtre de Morr aussi appelé Augure, vous a pris à part pour prédire votre mort lors d'un rituel de passage à l'âge adulte, lourd d'encens, appelé la Destinée. En accord avec votre MJ, proposez une Destinée appropriée. Si votre Personnage meurt d'une façon y correspondant, votre prochain Personnage gagnera un bonus égal à la moitié du total de PX accumulés par votre Personnage mort pendant la partie.</p><blockquote><h4>Nous sommes maudits !</h4><p>Voici des exemples de Destinées pour vous aider à créer votre propre Talent Destinée :</p><ul><li>Des ténèbres viendra le corbeau ;</li><li>Les bêtes sauvages n’auront d’yeux que pour toi ;</li><li>La peste et la sombre maladie te mettront à genoux ;</li><li>L’absence affaiblira ton cœur ;</li><li>L’épée n’apportera aucune justice, seulement ta fin ;</li><li>La brioche ! La viennoiserie ! La tarte ! Regarde, ce sont les délices de Morr !</li><li>Les tambours annoncent ta fin ;</li><li>La mort n’est pas la fin !</li><li>Tu tomberas sous la coupe de la Corruption ;</li><li>Les hautes sphères causeront ta chute.</li></ul></blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876649,
+        "modifiedTime": 1715802334862,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "iuuLVR6IvwQfruGq",
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Perspicace",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/savvy.png",
+      "effects": [
+        {
+          "_id": "sx7NGIdCYniQHaHi",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "equipTransfer": false,
+                "avoidTest": {
+                  "value": "none"
+                },
+                "testIndependent": false,
+                "prompt": false
+              },
+              "scriptData": []
+            }
+          },
+          "changes": [
+            {
+              "key": "system.characteristics.int.initial",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/talents/savvy.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Savvy",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.QsrXxGZiHjth7RMg"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Savvy"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous gagnez un bonus permanent de +5 à votre Caractéristique Intelligence de départ (ne compte pas comme Augmentation).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876516,
+        "modifiedTime": 1715802334862,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "d9XcoKT4nv63AOfg",
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Magie Mineure",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/petty-magic.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.mdPGZsn2396dEpOf"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Petty Magic"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous portez en vous l’étincelle de la magie et maîtrisez les techniques pour la contrôler au niveau le plus élémentaire. Quand vous prenez ce Talent, vous pratiquez, et mémorisez de façon permanente, un nombre de Sorts égal à votre Bonus de Force Mentale. Vous pouvez apprendre des Sorts de Magie mineure supplémentaires pour le prix en PX suivant.<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <div style=\"direction: ltr;\">\n  <table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Nombre de Sorts connus actuellement</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5833in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\"><span style=\"mso-spacerun: yes;\"></span>Coût en PX pour un nouveau sort</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 1</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">50 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 2</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">100 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 3</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">150 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 4</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">200 PX</p>\n  </td>\n  </tr>\n  </tbody>\n  </table>\n  </div>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">...et ainsi de suite.</p><p>Donc, si votre Bonus de Force Mentale est de 3 et que vous disposez déjà de 3 Sorts mineurs, il vous en coûtera 50 PX pour le premier, puis 100 PX pour les 3 suivants, et ainsi de suite. Les règles complètes pour l’apprentissage de nouveaux Sorts se trouvent au <strong>Chapitre 8 : Magie</strong>.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876650,
+        "modifiedTime": 1715802334862,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "zv0qcc8oUtkOXkER",
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Sous de Cuivre",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/brasspenny.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Brass Penny"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 17
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 1
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495169,
+        "modifiedTime": 1715804274551,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "_id": "OLC4iIJ5LA7Wxsav",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Couronne d'Or",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/goldcrown.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Ggx0bRaCuq8MbF0g"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Gold Crown"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 12
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 240
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1715804265395,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "_id": "ls22AXQM4qVXL6f3",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Pistole d'Argent",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/silvershilling.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Silver Shilling"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 2
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 12
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495184,
+        "modifiedTime": 1715804256576,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "_id": "2X64Bq40xrdSz35H",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Maître artisan (Guide)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/craftsman.png",
+      "effects": [
+        {
+          "name": "Craftsman",
+          "icon": "modules/wfrp4e-core/icons/talents/craftsman.png",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false,
+                "testIndependent": false
+              },
+              "scriptData": [
+                {
+                  "label": "@item.system.tests.value",
+                  "trigger": "dialog",
+                  "script": "[Script.956dUb5sd6OtbWZR]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "[Script.93K85NnVwjVNXlZq]",
+                      "activateScript": "[Script.R95pDZMHnD9iHAl8]",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  }
+                },
+                {
+                  "label": "Choose Trade Skill",
+                  "string": "",
+                  "trigger": "immediate",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": true
+                    }
+                  },
+                  "script": "[Script.sgS9rblPkQB36C8S]"
+                },
+                {
+                  "label": "Add Trade Skill",
+                  "string": "",
+                  "trigger": "prepareData",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "[Script.2W9uMTT6iJhfQ044]"
+                }
+              ]
+            }
+          },
+          "_id": "3Xwh9xniDQ17C9kx",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "tint": null
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.GRRN3XAKIpEVCY7z"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Craftsman"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous possédez un vrai talent créatif. Ajoutez la Compétence Métier associée à n’importe quelle Carrière que vous entamez. Si la Compétence Métier est déjà incluse dans votre Carrière, vous pouvez à la place acheter la Compétence pour 5 PX de moins par Augmentation.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "dex"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": "Métier (Guide touristique)"
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876513,
+        "modifiedTime": 1715803051108,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "H6MQEJhOxvXwkv0h",
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Résistance (Maladie)",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/resistance.png",
+      "effects": [
+        {
+          "icon": "modules/wfrp4e-core/icons/talents/resistance.png",
+          "transfer": true,
+          "_id": "FQv1UAIrdvtf9Tlc",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "origin": null,
+          "tint": null,
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false,
+                "testIndependent": false
+              },
+              "scriptData": [
+                {
+                  "label": "@item.system.tests.value",
+                  "string": "",
+                  "trigger": "dialog",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "[Script.956dUb5sd6OtbWZR]"
+                },
+                {
+                  "label": "Choose Resistance",
+                  "string": "",
+                  "trigger": "immediate",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "[Script.tCIT1a12Gt6k2ohA]"
+                }
+              ]
+            }
+          },
+          "name": "Resistance (Maladie)",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.vMYEkrWj0ip6ZOdv"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Resistance"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Votre forte constitution vous permet de survivre plus facilement à une menace spécifique. Vous pouvez réussir automatiquement le premier Test pour résister à la menace spécifiée, telle que Magie, Poison, Maladie, Mutation, à chaque séance de jeu. Si le DR requis est important, utilisez votre Bonus d’Endurance comme DR pour le Test.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": "Tous ceux pour résister à la Menace associée"
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876653,
+        "modifiedTime": 1715803341615,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "t3cqzL0u2caLco97",
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Ambidextre",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/ambidextrous.png",
+      "effects": [
+        {
+          "_id": "jc0qgnuBJlMsA5Yn",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "equipTransfer": false
+              },
+              "scriptData": [
+                {
+                  "label": "Ambidextrous",
+                  "trigger": "prepareData",
+                  "script": "[Script.GFkVnx4m9OwYsKGH]"
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/talents/ambidextrous.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Ambidextrous",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.IFKWu98qmWpaSfUi"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Ambidextrous"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous pouvez utiliser votre main non directrice bien mieux que la plupart des gens, grâce à votre entraînement ou à un talent inné. Vous subissez seulement une pénalité de -10 aux Tests reposant uniquement sur votre main secondaire au lieu de -20. Si vous possédez deux fois ce Talent, vous ne subissez aucune pénalité.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "2"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876514,
+        "modifiedTime": 1715803386143,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "7o6kDPqPzmZmeNSK",
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Choc",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [
+        {
+          "_id": "FyR5DAoHrTepIw8G",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "target",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "Shock",
+                  "trigger": "immediate",
+                  "script": "[Script.ioeTj5mx8jlA5EX5]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": true
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/spells/petty.png",
+          "tint": null,
+          "transfer": false,
+          "origin": null,
+          "name": "Shock",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.hKFeMAsntzXscIGy"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Shock"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Votre cible reçoit 1 État <em>@Condition[Sonné]</em>.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Contact",
+          "vortex": false
+        },
+        "target": {
+          "value": "1",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Instantané",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652872081,
+        "modifiedTime": 1715803473320,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "LdwxNg8dn2EWVvcx",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Lumière",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.wj5pXiyhNjaP6pom"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Light"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous créez une petite lumière, presque équivalente à une torche, qui jaillit de vos mains, de votre bâton ou d'une autre partie de votre personne. Tant que le Sort est actif, vous pouvez choisir d'augmenter la luminosité pour qu'elle soit équivalente à celle d'une lanterne, ou de la diminuer pour obtenir celle d'une bougie, si vous réussissez un Test de <strong>Focalisation Accessible (+20)</strong>.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Vous",
+          "vortex": false
+        },
+        "target": {
+          "value": "Vous",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Force Mentale Minutes",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652872326,
+        "modifiedTime": 1715803484167,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "7degX13VlQb2Dr3y",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Éblouissant",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [
+        {
+          "_id": "th43mvG7od8GUb2z",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "target",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "Dazzle",
+                  "trigger": "endRound",
+                  "script": "[Script.IR86DuMbVdbGOJYt]"
+                },
+                {
+                  "label": "Initial",
+                  "string": "",
+                  "trigger": "immediate",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "[Script.IR86DuMbVdbGOJYt]"
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/spells/petty.png",
+          "tint": null,
+          "transfer": false,
+          "origin": null,
+          "name": "Dazzle",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.IFuUxTGFQAxp40si"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Dazzle"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La cible gagne l'État <em>@Condition[Aveuglé]</em>, et gagne 1 État <em>@Condition[Aveuglé]</em> au début de chaque round pour la durée du Sort.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Contact",
+          "vortex": false
+        },
+        "target": {
+          "value": "1",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Bonus de Force Mentale Rounds",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652871855,
+        "modifiedTime": 1715803838201,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "u5xam05JWjooaDYe",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "En catimini",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.BMnu4XfgsSqVnCB8"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sly Hands"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous téléportez un petit objet - pas plus gros que votre poing - proche de votre personne entre vos mains.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Vous",
+          "vortex": false
+        },
+        "target": {
+          "value": "Vous",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Bonus de Force Mentale Rounds",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652871671,
+        "modifiedTime": 1715803941671,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "5tYbKaz3pmPyBRw4",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Sommeil",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [
+        {
+          "name": "Sleep",
+          "icon": "modules/wfrp4e-core/icons/spells/petty.png",
+          "_id": "etT0CGQuMnPMXPfz",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "target",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "Sleep",
+                  "trigger": "immediate",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": true
+                    }
+                  },
+                  "script": "[Script.LlRhPGorLl5qJCU8]"
+                }
+              ]
+            }
+          },
+          "tint": null
+        }
+      ],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.4ePe5oNQakA8nJlk"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sleep"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous touchez votre adversaire, le plongeant dans un profond sommeil. Si la cible possède un État <em>@Condition[A Terre]{À Terre}</em>, elle gagne l'État <em>@Condition[Inconscient]</em> lorsqu'elle s'endort. Elle reste inconsciente pour la durée du Sort, bien que les bruits forts, le fait de la déplacer ou de la bousculer la réveille instantanément. Si votre cible se tient debout ou assise quand elle est affectée, elle commence à se réveiller en touchant le sol, gagnant l'État <em>@Condition[A Terre]{À Terre}</em>, mais en demeurant consciente.</p><p>Si votre cible ne résiste pas et qu'elle est suffisamment fatiguée, elle plongera dans un profond sommeil réparateur lorsque le Sort prendra fin.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Contact",
+          "vortex": false
+        },
+        "target": {
+          "value": "1",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Bonus de Force Mentale Rounds",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652871666,
+        "modifiedTime": 1715803958491,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "ZMnFf0gWdtGBc1A5",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "_id": "2iD9YADHq4K59no2",
+      "name": "Sorcier dissident",
+      "type": "career",
+      "img": "modules/wfrp4e-core/icons/careers/witch-02.png",
+      "effects": [],
+      "folder": "dmeXXc2Fvthp6IZR",
+      "sort": 9700000,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Witch"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.7lNzR0hDPl98NrcX]{Sorcier dissident}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "careergroup": {
+          "value": "Sorcier dissident"
+        },
+        "class": {
+          "value": "Roublards"
+        },
+        "current": {
+          "value": true
+        },
+        "complete": {
+          "value": false
+        },
+        "level": {
+          "value": 2
+        },
+        "status": {
+          "tier": "b",
+          "standing": 2
+        },
+        "characteristics": [
+          "ws",
+          "t",
+          "i",
+          "wp"
+        ],
+        "skills": [
+          "Focalisation",
+          "Calme",
+          "Résistance",
+          "Ragot",
+          "Intimidation",
+          "Langue (Magick)",
+          "Escamotage",
+          "Discrétion (Rurale)",
+          "Emprise sur les animaux",
+          "Esquive",
+          "Intuition",
+          "Corps à corps (Armes d'hast)",
+          "Perception",
+          "Métier (Herboriste)"
+        ],
+        "talents": [
+          "Magie des Arcanes (Domaine) (Sorcellerie)",
+          "Attirant",
+          "Seconde Vue",
+          "Sorcier !"
+        ],
+        "trappings": [
+          "Bâton de combat",
+          "Sac",
+          "Assortiment d'herbes",
+          "Outils de la profession (Herboriste)"
+        ],
+        "incomeSkill": [
+          5
+        ]
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691215526544,
+        "modifiedTime": 1715804103052,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      }
+    },
+    {
+      "name": "Dague",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/dagger.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.ahlxlfIl8xUhBkic"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Dagger"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 16,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+2"
+        },
+        "reach": {
+          "value": "vshort"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": true,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495290,
+        "modifiedTime": 1715805743220,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "icmQIfzTemAIvpbG",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Arme simple (épée)",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/hand-weapon.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.1zaqojk0Oq1m8vYv"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Hand Weapon"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": false
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "basic"
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": "Le terme « Arme simple » est utilisé pour décrire un certain nombre d’armes de base qui, bien que différentes, sont considérées comme étant effectivement les mêmes pour le jeu, y compris les épées, les haches, les marteaux, les masses, les lances courtes etc."
+        },
+        "equipped": true,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495171,
+        "modifiedTime": 1715805740495,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "b44DkZnHm0nb7UQh",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "(2M) Bâton de combat",
+      "type": "weapon",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/quarter-staff.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.GkeMJrsqxQIek1xK"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Quarterstaff"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 0,
+          "ss": 3,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+4"
+        },
+        "reach": {
+          "value": "long"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "polearm"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "defensive"
+            },
+            {
+              "name": "pummel"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1715805736776,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "OAUB09OMVL5Ziopy",
+      "folder": "pG7lWm5hsAoxzrto",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "type": "trapping",
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "special"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "clothingAccessories"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/amulet.png",
+      "name": "Brassard du guet d'Ubersreik",
+      "_id": "dsWO1IUekiMnZ8MV",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1715804605097,
+        "modifiedTime": 1715805727133,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      }
+    },
+    {
+      "name": "Bourse",
+      "type": "container",
+      "img": "modules/wfrp4e-core/icons/equipment/packs_and_containers/pouch.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.mCvZAj5F6hfUZhzR"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Pouch"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 4
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": "XgSoWkOAU8rQOtlG"
+        },
+        "worn": {
+          "value": false
+        },
+        "wearable": {
+          "value": true
+        },
+        "carries": {
+          "value": 1
+        },
+        "countEnc": {
+          "value": true
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495386,
+        "modifiedTime": 1715804804945,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "XgSoWkOAU8rQOtlG",
+      "folder": "UOfdGwcYSMIwf22o",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Besace",
+      "type": "container",
+      "img": "modules/wfrp4e-core/icons/equipment/packs_and_containers/sling-bag.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.bImtd1QDrQWp53Ua"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sling Bag"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Considéré comme « porté » si vous le mettez en bandoulière.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 0,
+          "ss": 1,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "worn": {
+          "value": true
+        },
+        "wearable": {
+          "value": true
+        },
+        "carries": {
+          "value": 2
+        },
+        "countEnc": {
+          "value": true
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495291,
+        "modifiedTime": 1715805701783,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "rn6OvHyzhJcRqp8P",
+      "folder": "UOfdGwcYSMIwf22o",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bougie",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/miscellaneous_trappings/candle-dozen.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.TW3etL7RIU2EWTXp"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Candle"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Fournit un éclairage sur 10 mètres lorsqu’elle est allumée</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 4
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 1,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "misc"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495285,
+        "modifiedTime": 1715804896211,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "C2oieubGxGAWHSjN",
+      "folder": "aH60IuQtGZu5QcuB",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Bourse",
+      "type": "container",
+      "img": "modules/wfrp4e-core/icons/equipment/packs_and_containers/pouch.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.mCvZAj5F6hfUZhzR"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Pouch"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 4
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "worn": {
+          "value": true
+        },
+        "wearable": {
+          "value": true
+        },
+        "carries": {
+          "value": 1
+        },
+        "countEnc": {
+          "value": true
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495386,
+        "modifiedTime": 1715805705508,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "IUeohjcNiUlxmw1D",
+      "folder": "UOfdGwcYSMIwf22o",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Allumette",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/miscellaneous_trappings/match.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.AOLsFkqblrcCLv23"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Match"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 3
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 1
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "misc"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495178,
+        "modifiedTime": 1715804882951,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "FSoWsYByrHxH5NA4",
+      "folder": "aH60IuQtGZu5QcuB",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Cape avec capuchon",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/cloak.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.GIFrMVqk0SimaBOM"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Cloak"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Protège contre les éléments</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 0,
+          "ss": 10,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "clothingAccessories"
+        },
+        "worn": true,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1715805728117,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "TNm4n1EiulX1C0Vb",
+      "folder": "UXpF8O5Jd3ExZeyx",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Craie",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/miscellaneous_trappings/chalk.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.elraWaIlaaHeKwKl"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Chalk"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 10
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "misc"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495293,
+        "modifiedTime": 1715805187671,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "yvgUCcKUiwCFso5v",
+      "folder": "aH60IuQtGZu5QcuB",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Poupée",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/miscellaneous_trappings/doll.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.QpqxyJ8dkzG3qKrE"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Doll"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 2,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "misc"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495284,
+        "modifiedTime": 1715805201761,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "gmYIyhoxkojfpq0W",
+      "folder": "aH60IuQtGZu5QcuB",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Épingles (6)",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/pins.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.HXUQCiVOii3sNKGe"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Pins"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 6
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 10,
+          "bp": 0
+        },
+        "availability": {
+          "value": "scarce"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "clothingAccessories"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495182,
+        "modifiedTime": 1715805262138,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "0rrkXEKCqhhaxeXN",
+      "folder": "UXpF8O5Jd3ExZeyx",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Sac",
+      "type": "container",
+      "img": "modules/wfrp4e-core/icons/equipment/packs_and_containers/sack-large.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.RHqux3m4dgJoDkqG"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sack"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Nécessite 1 main pour être transporté.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 2
+        },
+        "price": {
+          "gc": 0,
+          "ss": 1,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "worn": {
+          "value": false
+        },
+        "wearable": {
+          "value": false
+        },
+        "carries": {
+          "value": 4
+        },
+        "countEnc": {
+          "value": true
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495285,
+        "modifiedTime": 1715805765784,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "a87gjskNimT4j7gO",
+      "folder": "UOfdGwcYSMIwf22o",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Soude Commune",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png",
+      "effects": [
+        {
+          "_id": "JGCSlLxbbXCPlkIY",
+          "flags": {
+            "wfrp4e": {
+              "reduceQuantity": true,
+              "hide": false,
+              "applicationData": {
+                "type": "other",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "Salwort",
+                  "trigger": "immediate",
+                  "script": "[Script.U26XMie3Kjoddisj]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": true
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Salwort",
+          "description": "",
+          "statuses": []
+        },
+        {
+          "name": "Apply Salwort",
+          "icon": "modules/wfrp4e-core/icons/equipment/herbs_and_draughts/salwort.png",
+          "_id": "ZnnZiIHuYkzxUKFZ",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Item",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "@effect.name",
+                  "trigger": "manual",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "[Script.TBpNFRL5uehs0fze]"
+                }
+              ]
+            }
+          },
+          "tint": null
+        }
+      ],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.mUTrC5DA6bF8DDWz"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Salwort"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Maintenu sous le nez d'une personne, l'arôme d'une branche écrasée de cette herbe retire 1 Etat <em>@Condition[Sonné]</em>. <strong>Dose :</strong> 1 par rencontre.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 12,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "drugsPoisonsHerbsDraughts"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495386,
+        "modifiedTime": 1715805462582,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "X1wjXLL2oFkDmLK0",
+      "folder": "Snfo3FdzENgmxX9h",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Tonique digestif",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/herbs_and_draughts/digestive-tonic.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.aUQDbW33bWqVeY9V"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Digestive Tonic"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"text-align: justify;\">Octroie +20 aux Tests pour se remettre des maux d'estomacs tels que la Courante Galopante ou le Flux Sanglant ((voir Maladies et Infections page 186).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 3,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "drugsPoisonsHerbsDraughts"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495290,
+        "modifiedTime": 1715805466804,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "wxAqKxf52A0KXHI7",
+      "folder": "Snfo3FdzENgmxX9h",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Faucille",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/tools_and_kits/sickle.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.hnuZUd35SCjKkJc2"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Sickle"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 1,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "toolsAndKits"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495294,
+        "modifiedTime": 1715806170422,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "17pS695sRsHcHNyf",
+      "folder": "CSzcbjvVhiToyYmB",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    }
+  ],
+  "name": "Adolf",
+  "img": "systems/wfrp4e/tokens/unknown.png",
+  "prototypeToken": {
+    "name": "Adolf",
+    "displayName": 20,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/wfrp4e/tokens/unknown.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [
+    {
+      "name": "Encombrement 1",
+      "icon": "systems/wfrp4e/icons/effects/enc1.png",
+      "statuses": [
+        "enc1"
+      ],
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [
+            {
+              "label": "@effect.name",
+              "trigger": "prePrepareData",
+              "script": "\n                            args.actor.characteristics.ag.modifier -= 10;\n\n                            if (args.actor.details.move.value > 3)\n                            {\n                                args.actor.details.move.value -= 1;\n                                if (args.actor.details.move.value < 3)\n                                    args.actor.details.move.value = 3\n                            }\n                            "
+            }
+          ]
+        }
+      },
+      "_id": "EcJNOAYaNstjnxnY",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "autoCalcRun": true,
+    "autoCalcWalk": true,
+    "autoCalcWounds": true,
+    "autoCalcCritW": true,
+    "autoCalcCorruption": true,
+    "autoCalcEnc": true,
+    "autoCalcSize": true,
+    "wfrp4e": {
+      "sheetCollapsed": {
+        "XgSoWkOAU8rQOtlG": false,
+        "rn6OvHyzhJcRqp8P": false,
+        "a87gjskNimT4j7gO": true
+      }
+    },
+    "exportSource": {
+      "world": "warhammer",
+      "system": "wfrp4e",
+      "coreVersion": "11.315",
+      "systemVersion": "7.1.3"
+    }
+  },
+  "_stats": {
+    "systemId": "wfrp4e",
+    "systemVersion": "7.1.3",
+    "coreVersion": "11.315",
+    "createdTime": 1715802334771,
+    "modifiedTime": 1715806139226,
+    "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+  }
+}

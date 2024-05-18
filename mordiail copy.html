@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mordiail</title>
+    <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e5099afc92.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Warhammer Fantasy Role-Play</h1>
+    </header>
+    <main>
+        <section class="identite">
+            <h3><label for="check-identite">Identité</label></h3>
+            <input type="checkbox" id="check-identite" checked>
+        </section>
+        <nav>
+            <h2><label for="check-section-caracs" checked>Caracs.</label></h2>
+            <h2><label for="check-section-comps">Compétences</label></h2>
+            <h2><label for="check-section-talents">Talents</label></h2>
+            <h2><label for="check-section-career">Carrière</label></h2>
+        </nav>
+        <input type="checkbox" name="check-section-caracs" id="check-section-caracs" checked>
+        <section class="caracteristiques">
+            <h3><label for="check-caracs">Caractéristiques</label></h3>
+            <input type="checkbox" name="check-caracs" id="check-caracs" checked>
+            <table class="hidden">
+                <tr>
+                    <th></th>
+                    <th>Initial</th>
+                    <th>Augment.</th>
+                    <th>Modif.</th>
+                    <th>Actuelle</th>
+                </tr>
+                <tr>
+                    <th class="caracName">CC<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="wsModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">CT<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="bsModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">F<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="sModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">E<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="tModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">I<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="iModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">Ag<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="agModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">Dex<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="dexModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">Int<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="intModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">FM<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="wpModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+                <tr>
+                    <th class="caracName">Soc<span class="caracSpe"></span></th>
+                    <td class="initial"></td>
+                    <td class="advances"></td>
+                    <td><input type="number" id="felModifier" class="modifier" value="0" ></td>
+                    <td class="actuelle"></td>
+                </tr>
+            </table>
+            
+            <h3><label for="check-secondaires">Secondaires</label></h3>
+            <input type="checkbox" name="check-secondaires" id="check-secondaires" checked>
+            <div class="hidden">
+                <table>
+                    <caption>Destin et Résilience</caption>
+                    <tr>
+                        <td>Chance</td>
+                        <td><input type="number" name="fortune" id="fortune" class="fortune"></td>
+                        <td>Détermination</td>
+                        <td><input type="number" name="resolve" id="resolve" class="resolve"></td>
+                    </tr>
+                    <tr>
+                        <td>Destin</td>
+                        <td><input type="number" name="fate" id="fate" class="fate"></td>
+                        <td>Résilience</td>
+                        <td><input type="number" name="resilience" id="resilience" class="resilience"></td>
+                    </tr>
+                </table>
+                <table class="XPandMouv">
+                    <caption>Expérience</caption>
+                    <tr>
+                        <td>Actuelle</td>
+                        <td>Dépensée</td>
+                        <td>Totale</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="xpActuelle" id="xpActuelle" class="xpActuelle" disabled></td>
+                        <td><input type="number" name="spent" id="spent" class="spent"></td>
+                        <td><input type="number" name="xpTotal" id="xpTotal" class="xpTotal"></td>
+                    </tr>
+                </table>
+                <table class="XPandMouv">
+                    <caption>Mouvement</caption>
+                    <tr>
+                        <td><input type="number" name="move" id="move" class="move"></td>
+                        <td><input type="text" name="marche" id="marche" class="marche" disabled></td>
+                        <td><input type="text" name="run" id="run" class="run" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Mouvement</td>
+                        <td>Marche</td>
+                        <td>Course</td>
+                    </tr>
+                </table>
+                <table>
+                    <caption>Corruption</caption>
+                    <tr>
+                        <td>Corruption</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" name="corruptionActuelle" id="corruptionActuelle" class="corruptionActuelle"> / <input type="number" name="corruption" id="corruption" class="corruption" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Mutations</td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="mutations" id="mutations"></textarea></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <input type="checkbox" name="check-section-comps" id="check-section-comps">
+        <section class="competences">
+            <h3><label for="check-comp">Compétences</label></h3>
+            <input type="checkbox" name="check-comp" id="check-comp" checked>
+            <table class="tableComps hidden">
+                <tr>
+                    <th>Nom</th>
+                    <th colspan="2">Caractéristique</th>
+                    <th>Aug</th>
+                    <th>Comp</th>
+                </tr>
+            </table>
+        </section>
+        <section class="talents"></section>
+        <input type="checkbox" name="check-section-career" id="check-section-career">
+        <section class="career">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

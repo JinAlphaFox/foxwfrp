@@ -1,0 +1,1995 @@
+{
+  "type": "character",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "bs": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "s": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "t": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "i": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "ag": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "dex": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "int": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "wp": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "fel": {
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "value": 0,
+        "max": 0
+      },
+      "advantage": {
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "value": 0,
+        "max": 2
+      },
+      "sin": {
+        "value": 0
+      },
+      "corruption": {
+        "value": 0
+      },
+      "encumbrance": {
+        "max": 0,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "fate": {
+        "value": 0
+      },
+      "fortune": {
+        "value": 0
+      },
+      "resilience": {
+        "value": 0
+      },
+      "resolve": {
+        "value": 0
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "value": "human",
+        "subspecies": "reiklander"
+      },
+      "gender": {
+        "value": ""
+      },
+      "biography": {
+        "value": ""
+      },
+      "gmnotes": {
+        "value": ""
+      },
+      "size": {
+        "value": "avg"
+      },
+      "move": {
+        "value": 4
+      },
+      "god": {
+        "value": ""
+      },
+      "status": {
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc"
+      },
+      "experience": {
+        "total": 0,
+        "spent": 0,
+        "log": []
+      },
+      "personal-ambitions": {
+        "short-term": "",
+        "long-term": ""
+      },
+      "party-ambitions": {
+        "name": "",
+        "short-term": "",
+        "long-term": ""
+      },
+      "motivation": {
+        "value": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "career": {
+        "value": ""
+      },
+      "careerlevel": {
+        "value": ""
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "haircolour": {
+        "value": ""
+      },
+      "eyecolour": {
+        "value": ""
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "starsign": {
+        "value": ""
+      },
+      "mainHand": "r"
+    }
+  },
+  "items": [
+    {
+      "_id": "0CwV96kTDRF0jUhk",
+      "name": "Divertissement",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Entertain ()"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de ravir les foules par la parole, peut-être en chantant, en jouant la comédie ou en faisant quelques blagues. Une utilisation réussie de la Compétence Divertissement signifie que vous avez assez amusé les spectateurs alentour pour qu'ils vous écoutent ; le DR indique à quel point vous avez réussi.</p><p>En combat, il est peu probable que Divertissement soit d'une grande utilité, bien que vous puissiez trouver une façon intéressante d'utiliser Divertissement(Comédie) pour troubler ou leurrer vos adversaires.</p><p><strong>Spécialisations: </strong>Chant, Comédie, Interprétation, Narration</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560810,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "1jCxbFAUuFuAPLJl",
+      "name": "Esquive",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Dodge"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>L'Esquive est votre capacité à éviter les objets, en esquivant, plongeant ou en vous déplaçant rapidement. Elle est beaucoup utilisée pour éviter les chutes de pierre, les coups portés, les pièges inattendus, etc.</p><p>En combat, l'Esquive est généralement utilisée pour résister aux attaques ou éviter les Dégâts.Référez-vous au <strong>Chapitre 5 : Règles</strong> pour plus d’informations à ce sujet.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560825,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "4IGdIhnwTaZijzg7",
+      "name": "Emprise sur les animaux",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Charm Animal"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s'agit de votre aptitude à vous lier d'amitié, à calmer rapidement ou à asservir les animaux.</p><p>Un Test réussi d'Emprise sur les animaux vous permet d'influencer le comportement d'un ou plusieurs animaux, jusqu'à un maximum égal à votre Bonus de Force Mentale + DR. Si les cibles animales sont naturellement dociles, ce Test peut être incontesté, mais il est généralement opposé à la Force Mentale de la cible.</p><p>En combat, vous pouvez utiliser Emprise sur les animaux lorsque vous affrontez des animaux. Si vous réussissez, aucune cible affectée ne vous attaquera durant ce round et vous gagnez +1 Avantage. Vous pouvez le faire pendant autant de Rounds successifs que vous le souhaitez, jusqu'à ce que vous décidiez d'arrêter ou ratiez un Test d'Emprise sur les animaux. Après quoi l'instinct de la créature reprend le dessus et vous n'avez plus d'influence.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560850,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "4mJoPBw4drm1kv2D",
+      "name": "Corps à corps",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Melee (Fencing)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Corps à corps représente l'entraînement spécifique que vous avez reçu avec un seul type d'armes de combat rapproché. Chaque Spécialisation de Corps à corps indique un entraînement à une classe d'arme spécifique. Si vous n'avez pas la Spécialisation appropriée pour une arme que vous souhaitez utiliser, référez-vous au <strong>Chapitre 11 : Guide de l'équipement </strong>pour consulter les statistiques de l'arme et savoir quelles pénalités vous subirez. Voir <strong>Chapitre 5 : Règles </strong>pour plus d'informations sur les combats et l'utilisation de la Compétence Corps à corps.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ws"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560856,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "7pQo66cESWttzIlb",
+      "name": "Pari",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Gamble"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet d’évaluer la probabilité qu’un pari porte ses fruits, et de participer avec succès à différents jeux de hasard.</p><p>Lors d’un pari, tous les Joueurs effectuent un Test de Pari – en appliquant tous les modificateurs appropriés pour leur connaissance du jeu – et le Joueur qui obtient le DR le plus haut l’emporte. En cas d’égalité, tous les Joueurs ayant les scores les plus faibles se retirent, et les Joueurs restants effectuent un autre Test de Pari, en répétant ce processus jusqu’à ce qu’un Joueur l’emporte.</p><p>Si vous souhaitez influencer le jeu par des procédés moins honnêtes, voir @Compendium[wfrp4e-core.items.rvd0S8Z0v2m0MHmD].<blockquote><h4>Option</h4>Certains Joueurs préfèrent utiliser des mini-jeux immersifs à la table, jouant à de vrais jeux de cartes ou de dés pour faciliter l’interprétation. Si vous optez pour cette solution, un Test de Pari réussi vous permettra d’influencer le jeu – en piochant, par exemple, une carte supplémentaire ou en relançant un dé – comme décidé par le MJ. Chaque DR vous accorde une opportunité supplémentaire d’influencer le jeu.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560881,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "AaXk4bfDRTPeeYjn",
+      "name": "Art",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-dex.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Art (Tattoo)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Créez des œuvres d'art avec le moyen d'expression de votre choix.</p><p>Ne pas avoir accès aux Outils de la profession appropriés entraînera une pénalité à vos Tests. Le DR obtenu détermine la qualité de l'œuvre finale. Un Test étendu peut être nécessaire pour la réalisation d'une œuvre d'art complexe ou de grande taille. La Compétence Art est peu utilisée en combat, mais les bustes de marbre peuvent faire de formidables armes improvisées.</p><p><strong>Exemple</strong> : <em>Irina a reçu une commande pour peindre le portrait d'un noble local, dont son groupe cherche à obtenir les faveurs. Son MJ décide que cela nécessite un total de 10 DR à un Test étendu d'Art, et chaque Test représente une semaine de travail.</em></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "dex"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560905,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "CcNJsS4jSwB6Ug1J",
+      "name": "Résistance",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Endurance"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Résistance est sollicitée quand vous devez supporter des conditions difficiles, faire face à la privation, attendre sans bouger pendant une longue période de temps, ou survivre dans des environnements hostiles. Plus spécifiquement, les Tests de Résistance servent à résister ou à vous remettre de différents États (voir page 167) et vous aident à récupérer vos Points de Blessure perdus. Référez-vous au <strong>Chapitre 5 : Règles</strong> pour plus d’informations à ce sujet.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560924,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "Fs06sr7y9JKpVQmB",
+      "name": "Perception",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Perception"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à percevoir des choses avec vos sens – la vue, l’odorat, l’ouïe, le toucher et le goût, et tout autre sens comme des sens magiques ou non humains. Votre MJ peut vous demander d’effectuer un Test de Perception pour détecter quelque chose, comme un mouvement derrière la ligne des arbres, la présence d’un piège ou quelqu’un qui vous suit, modifié par la facilité à le remarquer. La Perception est aussi utilisée pour résister aux tentatives pour dissimuler des choses par le biais de Compétences telles qu’Escamotage ou Discrétion.</p>La Perception a de nombreuses utilités en combat, le plus souvent pour remarquer des détails importants, au-delà de ce qui est évident dans l’environnement alentour et vos adversaires, comme déterminé par le MJ<p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560948,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "I0yPc4PH5erWJLmu",
+      "name": "Intimidation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Intimidate"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de contraindre ou d’effrayer des créatures douées de conscience. La manière précise d’initier un Test d’Intimidation dépend du contexte : bien qu’il soit généralement accompagné d’une menace non dissimulée, il peut s’agir parfois d’une allusion subtile ou même d’un simple regard. L’Intimidation est presque toujours opposée à la Compétence Calme de votre cible ; sur un succès, vous pouvez intimider un nombre de cibles égal à votre Bonus de Force + DR. Chaque cible réagira à l’Intimidation en fonction de sa propre personnalité et de la façon dont vous avez réussi à la menacer, mais dans tous les cas, elle fera marche arrière ou s’écartera du chemin et ne vous dénoncera pas, ou bien considérera que le combat est la seule solution et préparera ses armes.</p><p>En combat, vous provoquez la @Compendium[wfrp4e-core.items.Ib2YQYChktDFN93y]{Peur} chez toutes les cibles Intimidées. Vous pouvez aussi utiliser votre Compétence Intimidation à la place de Corps à corps quand vous vous défendez face à ceux qui ont peur de vous, obligeant les personnes intimidées à quitter le combat par votre volonté et votre seule posture. Par ailleurs, avec l’accord de votre MJ, vous pouvez utiliser Intimidation pour « attaquer » de telles cibles, en dictant des ordres précis, comme « lâche ton arme » ou « dégage de là ». Cependant, si vous échouez à l’un de ces Tests d’Intimidation ultérieurs, vous n’intimidez plus (ou ne causez plus de la @Compendium[wfrp4e-core.items.Ib2YQYChktDFN93y]{Peur}) les adversaires affectés. Avec l’accord de votre MJ, vous pouvez tenter de les Intimider de nouveau lors d’un prochain Round, mais cela entraîne un modificateur négatif, puisqu’ayant déjà constaté vos fanfaronnades, ils sont moins susceptibles de vous craindre.</p><blockquote><h4>Option : Caractéristiques alternatives pour l'Intimidation</h4>Bien que la Force soit la statistique par défaut pour les Tests d’Intimidation, le MJ peut juger que certaines situations vous permettent d’utiliser une Caractéristique différente : un Répurgateur acharné peut, par exemple, utiliser la Force Mentale pour dissuader un passant indiscret, ou un universitaire peut utiliser l’Intelligence pour intimider un simple étudiant avec ses impressionnantes connaissances.</blockquote><p><strong>Exemple: </strong><em>Face à un groupe de tire-laine, Svetlana la Puissante obtient 4 DR à son Test d’Intimidation. Combiné à son BF de 5, cela signifie qu’elle peut affecter jusqu’à 9 cibles, bien plus que suffisant pour affecter les trois tire-laine qui ont à présent Peur de Svetlana. Comme elle a gagné de 3 DR, elle gagne également +1 Avantage jusqu’à la fin de son prochain tour. Au Round suivant, elle « attaque » les tire-laine en utilisant son Intimidation, dans l’intention de les effrayer jusqu’à ce qu’ils la laissent tranquille. Cependant, elle échoue au Test, et les tire-laine réalisent qu’ils sont plus nombreux qu’elle, et armés…</em></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560959,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "KL4pCOqma5E7fLG4",
+      "name": "Ramer",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Row"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agir de votre adresse à manier une pagaie et à diriger un bateau sur l’eau. La Compétence Ramer est généralement utilisée lors des courses-poursuites, pour traverser des rapides, éviter désespérément des pieuvres des tourbières, ou pour des prouesses inhabituelles, ou dangereuses, similaires. Quiconque possède la Compétence est automatiquement considéré comme capable de filer habilement sur un étang ou une rivière calme sans Test. Ceux qui ne possèdent pas la Compétence peuvent devoir effectuer un Test, sauf pour les manœuvres de base.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560967,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "LGHozP5gmQ8cuDQV",
+      "name": "Athlétisme",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Athletics"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s'agit de votre capacité à courir, sauter, à vous déplacer avec rapidité et grâce, et à effectuer toute activité physique générale. Référez-vous à <strong>Déplacement</strong> (voir page 164) pour plus de détails sur l'utilisation de l'Athlétisme en mouvement de combat.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560970,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "McTtmZu3Ac8Lh48W",
+      "name": "Discrétion",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Stealth ()"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de vous glisser sournoisement et de vous dissimuler dans les ombres plus facilement que la plupart des gens. Discrétion est généralement opposée à la Compétence Perception de votre adversaire, et les Tests seront modifiés en fonction de l’obscurité ou de la façon dont votre itinéraire est dissimulé, ainsi que par le soin que vous avez mis à vous habiller ou non en conséquence. Un Échec Impressionnant ou Stupéfiant à un Test de Discrétion attirera probablement et immédiatement l’attention des ennemis que vous essayiez en premier lieu d’éviter.<p>Discrétion a beaucoup d’applications potentielles en combat, la plupart utiles pour se dissimuler lors de la préparation d’une Embuscade, ou pour vous glisser derrière un adversaire afin de le prendre à revers. Voir le <strong>Chapitre 5 : Règles</strong> pour plus d’informations sur les conséquences de cette action. Bien sûr, vous pouvez aussi utiliser la Compétence pour fuir un conflit sans être vu…</p><strong>Spécialisations :</strong> Rurale, Souterrains, Urbaine.<h4>Option : Filature</h4><p>La Filature est le fait de suivre quelqu'un discrètement. Cela nécessite un Test Combiné de <strong>Perception</strong> et <strong>Discrétion</strong> (voir page 155). Si la cible essaye activement de brouiller les pistes, le Test est opposé à la Compétence Discrétion de la cible.<p>Si vous réussissez le Test de Perception et échouez au Test de Discrétion, vous suivez la cible, mais vous êtes repéré. Si vous échouez au Test de Perception, mais réussissez le Test de Discrétion, vous perdez votre cible, mais vous passez inaperçu.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560976,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "MeXCAQ3wqJzX07X7",
+      "name": "Chevaucher",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Ride ()"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>C'est la façon dont vous maîtrisez le fait de chevaucher un groupe particulier d'animaux ; Chevaucher (Cheval), par exemple, vous permettra de monter des chevaux, des mules, des ânes et autres animaux similaires. Vous aurez besoin de faire un Test uniquement lorsque vous voudrez effectuer quelque chose d'inhabituel, comme une course, du dressage, traverser un terrain dangereux ou charger en combat. Autrement, si vous possédez la Compétence, vous êtes considéré comme capable de chevaucher sans avoir besoin de Test.</p><p>Si vous êtes monté sur un destrier, vous vous déplacez en utilisant les statistiques de Mouvement du destrier ; si vous voulez courir, sauter, ou bondir, vous utilisez votre compétence Chevaucher, et pas Athlétisme. Un Test de Chevaucher étendu peut être nécessaire si vous vous rendez quelque part, le DR cible dépendant de la longueur du voyage, et le nombre de Tests indiquant combien de temps vous mettez à arriver. Un Test de Chevaucher peut être modifié par les conditions environnementales et le tempérament de la monture. Pour plus d'information sur les montures, voir le Chapitre 12 : Bestiaire. Le Compétence Chevaucher peut être activement utilisée en combat. Voir Chapitre 5 : Règles pour plus d'informations sur le combat monté.</p><p><strong>Spécialisations : </strong>Cheval, Grand Loup, Griffon, Hippogriffe, Pégase</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560977,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "R2ytluHiEFF2KQ5e",
+      "name": "Résistance à l'alcool",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Consume Alcohol"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à consommer de l’alcool sans que cela n’obscurcisse votre jugement ou ne vous rende déraisonnable.<p>Après chaque boisson alcoolisée, faites un Test de Résistance à l’alcool, modifié par la puissance de la boisson. Pour chaque Test auquel vous échouez, vous subissez une pénalité de -10 à vos CC, CT, Ag, Dex et Int, jusqu’à un maximum de -30 par Caractéristique. Si vous échouez à un nombre de Tests égal à votre Bonus d’Endurance, vous êtes Ivre. Faites un lancer sur le tableau @Compendium[wfrp4e-core.tables.1zRhcz5jHS1W1xHt]{Ivre-Mort} pour en connaître les conséquences.<p>Après une heure passée sans boire, effectuez un Test de <strong>Résistance à l’alcool Intermédiaire (+0)</strong>. Les effets de l’ivresse se dissiperont après 10-DR heures, et tous les modificateurs de Caractéristiques disparaîtront après ce délai. Une fois tous les effets dissipés, effectuez un nouveau Test de <strong>Résistance à l’alcool Intermédiaire (+0)</strong>. Vous avez à présent la gueule de bois, qui correspond à l’État @Condition[Extenué]{Exténué} et ne peut pas être retiré pendant 5 – DR heures.<p>Vous pouvez dépenser 1 Point de Détermination pour ignorer les modificateurs négatifs de l’ivresse jusqu’à la fin du prochain Round (voir page 171).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560993,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "RLQHm1s4IuY9RSr2",
+      "name": "Ragot",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Gossip"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Cette Compétence vous permet de dénicher rapidement des informations utiles et intéressantes, et de répandre vos propres rumeurs. Un Test de Ragot réussi signifie que vous avez trouvé un renseignement utile, que votre MJ peut vous transmettre, au sujet de la région. Chaque DR vous offre soit un renseignement supplémentaire, soit la possibilité de répandre une rumeur auprès d’un nombre d’individus égal à votre Bonus de Sociabilité. Le temps nécessaire pour un Test de Ragot dépend combien les Joueurs sont circonspects, et comment la région est peuplée, ce qui est décidé par le MJ.<p>Il est peu probable que Ragot puisse être utile en combat, mais si votre attaquant se trouve être de la région et que vous savez quelque chose de vraiment croustillant…</p><blockquote><h4>Chuchotements</h4>Même si partager les informations glanées grâce à des Tests de Ragot avec tous les Joueurs en même temps puisse être commode pour le MJ, il est aussi souvent plus plaisant de ne partager les informations qu’individuellement, Joueur par Joueur (par une note ou en s’entretenant rapidement avec eux à part). Cela signifie que les Joueurs doivent relier les informations entre elles – favorisant l’immersion et l’interprétation –, ce qui peut provoquer des erreurs et des malentendus, menant parfois à des résultats hilarants, ou épouvantables.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273560994,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "cYtU0ORRFCOpQLWz",
+      "name": "Intuition",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Intuition"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>LLa Compétence Intuition vous permet de percevoir ce qui vous entoure, de remarquer quand quelque chose ne va pas, et de ressentir quand des gens vous cachent quelque chose. Une utilisation réussie de la Compétence Intuition vous donne des renseignements subtils et implicites concernant votre environnement, déterminés par votre MJ. Cela peut être une information, comme savoir si quelqu’un est convaincu de la véracité de ses propos, quelle est l’attitude générale envers le noble local, ou est-ce que les intentions des gens du coin, si serviables, sont aussi pures qu’elles le paraissent. Si quelqu’un essaye activement de dissimuler ses intentions, il peut résister à votre Intuition avec Calme ou Divertissement (Interprétation).</p><p>En combat, un Test d’Intuition réussi peut être utilisé pour vous donner +1 Avantage puisque vous évaluez l’environnement et vos adversaires. Vous pouvez continuer à renforcer votre Avantage lors des tours suivants à condition que vous soyez capable d’observer vos cibles et que vous ne soyez pas interrompu (en étant attaqué par exemple) ; de cette façon vous pouvez gagner un maximum d’Avantages égal à votre Bonus d’Intelligence.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561040,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "d3VZwO4Y5JH5DXdT",
+      "name": "Subornation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Bribery"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à juger de la probabilité qu’une personne accepte ou non un pot-de-vin, et de la meilleure façon de lui présenter la chose pour qu’elle l’accepte.<p>Un Test de Subornation réussi vous indique si une cible peut être soudoyée. Si oui, votre MJ détermine secrètement le prix de sa coopération en utilisant le Revenu de la cible (voir page 52), en augmentant le montant en fonction de son honnêteté habituelle et du risque encouru en acceptant le pot-de-vin. Puis vous estimez ce montant cible et le MJ vous indiquera si le prix est supérieur, inférieur ou égal. Chaque DR obtenu lors de votre Test de Subornation vous offre une estimation supplémentaire. À la fin de ce processus, vous déterminez combien d’argent offrir, en vous basant sur les informations obtenues.<p><strong>Exemple : </strong><em>Snorri tente de soudoyer un Garde pour qu’il le laisse passer ; il s’agit d’un Personnage Bronze 2, ce qui signifie qu’il a un Revenu de 4d10 sous de cuivre. Le MJ décide que le garde peut être soudoyé et obtient secrètement 21 sur les 4d10, indiquant que le prix pour soudoyer le garde est de 21 sous de cuivre. Laisser passer Snorri n’est pas trop risqué pour le Garde, il le fait d’ailleurs souvent, le MJ n’augmente donc pas le pot-de-vin nécessaire. Snorri a obtenu 1 DR à son Test de Subornation ; il sait donc que le Garde est réceptif au pot-de-vin, et a 2 estimations pour trouver le prix. La première estimation de Snorri est de 15 sous de cuivre, ce à quoi son MJ répond « Supérieur ». Sa seconde estimation se monte à 40, ce à quoi son MJ répond « Inférieur ». Snorri sait à présent qu’il doit verser un pot-de-vin au garde compris entre 15 et 40 sous de cuivre. Il décide de viser haut et offre 30 sous de cuivre. Le sourire aux lèvres, le Garde fait traverser Snorri.</em><p>En combat, vous pouvez utiliser ainsi Subornation pour essayer d’arrêter le combat, mais considérez le Test comme Difficile (-20) à cause du stress de la situation. Si votre cible n’est pas réceptive, vous ne pouvez pas offrir de pot-de-vin, ou si votre cible ne parle pas votre langue, vos tentatives pathétiques de l’acheter resteront vaines. Évidemment, s’ils ont l’avantage du nombre, qu’est-ce qui pourrait les empêcher de prendre tout votre argent ?</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561041,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "exLrBrn2mjb6x2Cq",
+      "name": "Charme",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Charm"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Le Charme incite les gens à avoir une bonne opinion de vous, de vos points de vue et des actions proposées.</p><p>Réussir un Test opposé de <strong>Charme/Calme</strong> vous permet d'influencer l'attitude d'une ou plusieurs cibles, jusqu'à un maximum égal à votre Bonus de Sociabilité + DR, affectant en premier la cible ayant la Force Mentale la plus faible. Si une cible est favorable à votre Charme, le Test sera incontesté.</p><p>Votre MJ peut vous autoriser à utiliser le Charme en Combat, s'il pense que vos ennemis pourraient être sensibles à votre façon d'implorer pour votre vie ou à des arguments persuasifs pour faire cesser les violences (bonne chance pour charmer un gobelin !)</p><p>Si vous utilisez Charme comme Action, calculez normalement le nombre de cibles potentielles. Si vous vous en servez pour vous défendre, l'Action n'affecte que votre adversaire. Sur un succès, les cibles charmées ne vous attaqueront pas pendant ce round et vous gagnez +1 Avantage normalement. Vous pouvez répéter l'action sur plusieurs rounds jusqu'à ce que vous arrêtiez ou échouiez, après quoi vos paroles n'auront plus aucune incidence.<blockquote><h4>Parler en Public</h4>La Compétence Charme peut être utilisée pour faire un discours saisissant dans le but de faire pencher plusieurs cibles en faveur de votre façon de penser. En admettant qu’ils vous entendent et qu’ils soient enclins à vous écouter, vous pouvez influencer un nombre de cibles égal à votre Bonus de Sociabilité + DR avec un seul Test de Charme, influençant en premier les cibles avec la Force Mentale la plus faible. Si la foule est déchaînée, ou non réceptive à votre discours, le Test est opposé à la Force Mentale moyenne de la foule (en général 35). Un échec indique que la foule n’est pas convaincue<p>Les Talents <strong>@Compendium[wfrp4e-core.items.XU7D9CCmumuhqDUi]</strong> et <strong>@Compendium[wfrp4e-core.items.ZWcTbeK8i9vKph2a]</strong> peuvent augmenter de façon significative le nombre de personnes que vous affectez avec Charme. Obtenir un Échec Stupéfiant à un Test de Charme signifie que votre auditoire se transforme rapidement en foule en colère, et vous êtes la cible de son courroux.</blockquote><blockquote><h4>Mendier</h4>La Compétence de Charme peut être utilisée pour mendier dans les rues. Un Test réussi vous vaudra un nombre de sous de cuivre égal à votre Bonus de Sociabilité x DR par heure de la part des passants, dont la Difficulté est modifiée par le discours choisi pour mendier et à quel point votre apparence peut susciter la sympathie. Si vous n’obtenez pas de DR, mais que vous réussissez quand même le Test, vous ne réussissez à glaner qu’un sou. Un Échec Stupéfiant (-6) signifie que vous vous êtes peut-être attiré des ennuis avec les gardes locaux, ou avec d’autres mendiants du coin, ou que vous avez essuyé d’importants échecs.<p><strong>Remarque</strong>: les Personnages surpris à mendier par leurs pairs ou associés perdront probablement leur Statut, à moins qu’ils n’aient déjà une Carrière de Mendiant, ou une autre Carrière sans ressources.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561048,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "iYan4z52v7HYM9u9",
+      "name": "Conduite d'attelage",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Drive"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Conduite d'attelage vous permet de conduire les véhicules - le plus souvent de simples chariots et de lourdes diligences, sans parler des créations plus « expérimentales » des Ingénieurs impériaux - sur les routes de l'Empire avec aussi peu d'incidents que possible.<p>Dans des circonstances normales, si vous possédez la Compétence Conduite d'attelage, aucun Test n'est nécessaire. Si les conditions sont moins idéales - peut-être la route est-elle en mauvais état ou si la météo est détestable -, un Test de Conduite d'attelage est nécessaire. Si vous ne possédez pas la Compétence Conduite d'attelage, un Test sera peut-être nécessaire pour effectuer des manœuvres même basiques. Un Échec Stupéfiant (-6) à un Test de Conduite d'attelage signifie que quelque chose de grave s'est produit. Faites un lancer sur le tableau suivant Dans des circonstances normales, si vous possédez la Compétence Conduite d’attelage, aucun Test n’est nécessaire. Si les conditions sont moins idéales – peut-être la route est-elle en mauvais état ou si la météo est détestable –, un Test de Conduite d’attelage est nécessaire. Si vous ne possédez pas la Compétence Conduite d’attelage, un Test sera peut-être nécessaire pour effectuer des manœuvres même basiques. Un Échec Stupéfiant à un Test de Conduite d’attelage signifie que quelque chose de grave s’est produit. Faites un lancer sur le tableau @Compendium[wfrp4e-core.tables.w1hLPRX2e30ZnXKq].</p><strong>Accident </strong>: Les occupants de véhicules Accidentés subissent généralement 2d10 Points de Blessure modifiées par le Bonus d’Endurance et les PA, sauf si le véhicule roulait doucement (déterminé par le MJ). Les véhicules Accidentés doivent être réparés par quelqu’un possédant la Compétence de Métier appropriée, comme Métier (Charpentier) ou Métier (Charron). Une roue de secours peut être installée par n’importe qui avec un Test de Conduite d’attelage ou un Test du Métier approprié.<p>En combat, la Conduite d’attelage peut être utilisée si les circonstances le permettent – par exemple, si le groupe se trouve dans une diligence attaquée par des hors-la-loi, et que vous souhaitiez percuter un ennemi ou les distancer (voir page 165).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561062,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "oMaJZ5cvCJeOUq9H",
+      "name": "Commandement",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Leadership"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>C’est une indication de votre capacité à diriger les autres et à vous faire respecter. Le plus souvent associée à des situations martiales, un meneur déterminé peut toutefois réagir rapidement lors d’un incendie ou autre catastrophe, et les nobles utilisent fréquemment la Compétence pour commander leurs subordonnés.<p>Un Test de Commandement réussi vous permet de donner des ordres à un nombre de cibles égal à votre Bonus de Sociabilité + DR. Si les cibles sont vos subordonnés directs – un noble commandant un serf ou un sergent dirigeant ses troupes – les ordres ne rencontrent aucune opposition. S’il n’y a pas de hiérarchie en place, ou que l’ordre est particulièrement exigeant – comme ordonner à vos soldats de charger la tête d’une hydre – le Test est opposé au Calme de vos cibles.<p>En combat, vous pouvez utiliser Commandement pour encourager vos subalternes. Un Test de Commandement réussi confère un bonus de +10 à tous les Tests de Psychologie jusqu’à la fin du prochain Round (voir page 190).<p>Par ailleurs, Commandement peut être utilisé pour transférer un Avantage à des alliés capables de vous entendre ; après un Test de Commandement réussi, vous pouvez transférer un Avantage à un allié de votre choix, et +1 Avantage par DR obtenu, qui peut de nouveau être alloué aux alliés de votre choix à portée de voix.<p><strong>Exemple :</strong><em>Lord Ludwig von Schemp a regardé ses deux gardes du corps discuter avec des voyous pendant trois Rounds, utilisant sa Compétence Intuition pour cumuler 3 Avantages. Sentant que la situation ne va nulle part, il lance un ordre péremptoire pour attaquer le chef de file ; réussissant son Test avec 5 DR, il donne 2 Avantages à l’un de ses gardes du corps et 1 Avantage à l’autre, espérant que cela mette rapidement fin à l’affaire.</em><blockquote><h4>C'est qui le chef ?</h4>Les MJ doivent être conscients que le fait que des Joueurs donnent des ordres à d’autres Joueurs peut causer des tensions au sein du groupe. Si vous avez des Joueurs avec des classes sociales ou des rangs militaires différents, faites en sorte de discuter de la façon dont cela se répercutera sur la dynamique du groupe pour garantir un jeu fluide et agréable pour tout le monde.</blockquote></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561085,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "os4NKy5Oy6sRt1eh",
+      "name": "Survie en extérieur",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Outdoor Survival"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Survie en extérieur est utilisée pour la survie dans la nature, et comprend la capacité de pêcher, de chasser, de rechercher de la nourriture, de faire un feu et de construire un abri. Les voyageurs expérimentés sont doués pour repérer les signes d’un changement de météo et les excréments de nombreuses bêtes dangereuses.<p>Quand vous campez, faites un Test de Survie en extérieur, modifié par la rudesse des conditions – par exemple, un Test est <strong>Intermédiaire (+0)</strong> s’il pleut, <strong>Difficile (-20)</strong> lors d’une tempête. Un Test réussi indique que vous pouvez vous procurer de la nourriture et un abri pour la nuit. Chaque DR vous permet de procurer l’équivalent pour un Personnage de plus. Si le Test échoue, vous devez faire un Test de <strong>Résistance Intermédiaire (+0)</strong> ou recevoir l’État @Condition[Extenué]{Exténué}. Si vous subissez un Échec Stupéfiant, quelque chose de fâcheux est arrivé, déterminé par le MJ ; peut-être votre camp est-il attaqué pendant la nuit ?</p><p>Quand vous combattez dans la nature sauvage, vous pouvez effectuer un Test de Survie en extérieur pour recevoir +1 Avantage, de la même façon qu’avec Intuition, pour un nombre maximum d’Avantages égal à votre Bonus d’Intelligence, car vous repérez les terrains dangereux ou intéressants pour les utiliser à votre Avantage.<blockquote><h4>Option : Trouver de la nourriture et des herbes</h4>Trouver de la nourriture et des herbes prend en temps normal environ 2 heures. Les équipes de chasse et de recherche de nourriture effectuent un Test de <strong>Survie en extérieur Soutenu</strong> pour le groupe, dont la Difficulté est déterminée par les circonstances.<ul><li><strong>Recherche de nourriture : </strong>Un succès procure suffisamment de nourriture pour un Personnage. Chaque DR procure assez de nourriture pour une personne de plus ;</li><li><strong>Chasser et pêcher : </strong>Si vous possédez des arcs, lances, cannes à pêche ou filets appropriés, un Test réussi permet de nourrir deux personnes, et deux personnes supplémentaires par DR ;</li><li><strong>Piégeage : </strong>Utilisez la Compétence @Compendium[wfrp4e-core.items.HngrTVqKis08Nvcf] pour placer des pièges pour Animaux. Permet de nourrir le même nombre de personnes que <strong>Chasser et pêcher</strong> ;</li><li><strong>Savoir (Herbes) : </strong>Si vous préférez cueillir des herbes en utilisant @Compendium[wfrp4e-core.items.DRO5DLF6UcfkvNSh]{Savoir (Herbes)}, un succès permet de ramasser une dose de l'herbe recherchée (voir page 307), et chaque DR ajoute une dose supplémentaire. Les Tests de cueillette sont modifiés en fonction de la Disponibilité des herbes : Commune (0), Limitée (-10), Rare (-20) ou Exotique (-30).</li></ul></blockquote>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561088,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "pKLMbmG3Ivt6mzMf",
+      "name": "Marchandage",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Haggle"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Marchandage vous permet d'obtenir de meilleures offres lorsque vous négociez avec autrui. En général, Marchandage est utilisé pour savoir si vous faites, ou non, une bonne affaire, la plupart du temps grâce à un Test opposé de <strong>Marchandage</strong>. De façon plus spécifique, cette Compétence peut être utilisée quand vous parcourez les échoppes pour trouver les meilleurs prix. Pour plus d'informations à ce sujet, référez-vous au <strong>Chapitre 11 : Guide de l'équipement.</strong></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561089,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "pxNjTxsp1Kp0SmQe",
+      "name": "Calme",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Cool"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>La Compétence Calme vous permet de rester serein sous la pression, de résister à la peur quand vous affrontez l'horreur, et à vous en tenir à vos convictions.</p><p>Le Calme est en général utilisé pour résister aux autres Compétences - Charme, Intimidation et autres Compétences similaires -, mais vous devrez peut-être aussi faire un Test de Calme face à quelque chose qui vous oblige à agir contre votre volonté. Le Calme est aussi la principale Compétence utilisée pour résister aux effets de la Psychologie (voir page 190).</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561091,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "sRuMlaPU5xdIrwhd",
+      "name": "Escalade",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Climb"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Il s’agit de votre capacité à grimper sur des surfaces lisses ou verticales. Si le temps n’est pas un problème, et que l’escalade est relativement facile, quiconque possède la Compétence Escalade est automatiquement considéré comme capable d’escalader n’importe quelle petite hauteur raisonnable.</p><p>Dans tous les autres cas, référez-vous à la page 165 qui gère aussi l’Escalade pendant le combat. Vous pouvez même vous retrouver à escalader de grands adversaires, même si dans ce cas la notion de prudence reste discutable. </p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561099,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "zZUX7wO4rOo8k9F0",
+      "name": "Orientation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Navigation"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>L’Orientation vous permet de trouver votre chemin dans la nature en utilisant des repères, des corps stellaires ou des cartes. Posséder la Compétence Orientation signifie que vous savez à peu près où vous vous trouvez, et pouvez déterminer votre chemin grâce à des repères bien connus sans effectuer de Test. Un Test est nécessaire uniquement si vous êtes désorienté ou que vous voyagez loin des sentiers battus. Une réussite vous indique alors la bonne direction ou vous permet d’éviter les mésaventures.</p><p>Si vous parcourez un long trajet, votre MJ peut vous demander d’effectuer un Test d’Orientation étendu, modifié par les conditions météo, les repères visibles, et l’accès à des informations géographiques fiables. Le DR nécessaire pour réussir dépend de la distance à laquelle se trouve la destination, et chaque Test représente entre une heure et une journée de voyage, en fonction de la nature du trajet.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.0",
+        "coreVersion": "11.307",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1693273561125,
+        "lastModifiedBy": "sAiwDCZFd21tgaDN"
+      }
+    },
+    {
+      "_id": "01TpHKqwvBYxzc1X",
+      "name": "Paysan",
+      "type": "career",
+      "img": "modules/wfrp4e-core/icons/careers/villager-01.png",
+      "effects": [],
+      "folder": "dmeXXc2Fvthp6IZR",
+      "flags": {
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Peasant"
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.wlH2GnvZKA4zvdn8"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.EYkvtokq0FXlFaPa]{Villageois}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "careergroup": {
+          "value": "Villageois"
+        },
+        "class": {
+          "value": "Ruraux"
+        },
+        "current": {
+          "value": true
+        },
+        "complete": {
+          "value": false
+        },
+        "level": {
+          "value": 1
+        },
+        "status": {
+          "tier": "b",
+          "standing": 2
+        },
+        "characteristics": [
+          "s",
+          "t",
+          "ag"
+        ],
+        "skills": [
+          "Soin aux animaux",
+          "Athlétisme",
+          "Résistance à l'alcool",
+          "Résistance",
+          "Ragot",
+          "Corps à corps (Bagarre)",
+          "Savoir (Région)",
+          "Survie en extérieur"
+        ],
+        "talents": [
+          "Nomade",
+          "Infatigable",
+          "Obstiné",
+          "Brouet"
+        ],
+        "trappings": [
+          "Aucun"
+        ],
+        "incomeSkill": [
+          3
+        ]
+      },
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691215526544,
+        "modifiedTime": 1715716656778,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "sort": 0
+    },
+    {
+      "name": "Sous de Cuivre",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/brasspenny.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.0MYOJFx3vkYA95B4"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Brass Penny"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 0
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 1
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495169,
+        "modifiedTime": 1715716656778,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "_id": "vzVxd60k7lqmfJpN",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Couronne d'Or",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/goldcrown.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Ggx0bRaCuq8MbF0g"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Gold Crown"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 0
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 240
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1715716656778,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "_id": "WJQd7UwjOdZak8XE",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Pistole d'Argent",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/silvershilling.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.KB8HgDz56dh2w7w1"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Silver Shilling"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p></p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 0
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 12
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495184,
+        "modifiedTime": 1715716656778,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "_id": "5YAgN1jJtyatJNtT",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    }
+  ],
+  "name": "Vierge",
+  "img": "systems/wfrp4e/tokens/unknown.png",
+  "prototypeToken": {
+    "name": "Vierge",
+    "displayName": 20,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/wfrp4e/tokens/unknown.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "autoCalcRun": true,
+    "autoCalcWalk": true,
+    "autoCalcWounds": true,
+    "autoCalcCritW": true,
+    "autoCalcCorruption": true,
+    "autoCalcEnc": true,
+    "autoCalcSize": true,
+    "exportSource": {
+      "world": "warhammer",
+      "system": "wfrp4e",
+      "coreVersion": "11.315",
+      "systemVersion": "7.1.3"
+    }
+  },
+  "_stats": {
+    "systemId": "wfrp4e",
+    "systemVersion": "7.1.3",
+    "coreVersion": "11.315",
+    "createdTime": 1715716656620,
+    "modifiedTime": 1715716656842,
+    "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+  }
+}

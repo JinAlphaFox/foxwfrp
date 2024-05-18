@@ -1,0 +1,4389 @@
+{
+  "name": "Ferdinand Gruber",
+  "type": "character",
+  "img": "modules/wfrp4e-starter-set/art/ferdinand.webp",
+  "items": [
+    {
+      "_id": "VuBA1ll0zBIDZuEi",
+      "name": "Grimoire",
+      "type": "trapping",
+      "sort": 3000001,
+      "flags": {
+        "_sheetTab": "details"
+      },
+      "img": "modules/wfrp4e-core/icons/equipment/book_documents/book-magic.png",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": "<p>Spell grimoires are usually scribed by wizards, and their covers are often secured with locks. Sometimes grimoires are even protected by magical alarms or wards. Carrying a spell grimoire is punishable as heresy unless the owning wizard is licensed by the Colleges of Magic.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 20,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "exotic"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "booksAndDocuments"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "rNF1sSgIgVbS9fLU",
+      "name": "Amethyst Wizard's Uniform",
+      "type": "trapping",
+      "sort": 3100001,
+      "flags": {
+        "_sheetTab": "description"
+      },
+      "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/robes.png",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 0,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "exotic"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "clothingAccessories"
+        },
+        "worn": true,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "SFwZ2UC4xf8ausDr",
+      "name": "Scythe",
+      "type": "weapon",
+      "sort": 3400001,
+      "flags": {
+        "_sheetTab": "details"
+      },
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/hand-weapon.png",
+      "effects": [],
+      "folder": null,
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 1
+        },
+        "price": {
+          "gc": 10,
+          "ss": 0,
+          "bp": 0
+        },
+        "availability": {
+          "value": "exotic"
+        },
+        "location": {
+          "value": ""
+        },
+        "damageToItem": {
+          "value": 0,
+          "shield": 0
+        },
+        "damage": {
+          "value": "SB+6"
+        },
+        "reach": {
+          "value": "average"
+        },
+        "range": {
+          "value": ""
+        },
+        "skill": {
+          "value": ""
+        },
+        "modeOverride": {
+          "value": ""
+        },
+        "twohanded": {
+          "value": true
+        },
+        "ammunitionGroup": {
+          "value": "none"
+        },
+        "currentAmmo": {
+          "value": "0"
+        },
+        "consumesAmmo": {
+          "value": true
+        },
+        "weaponGroup": {
+          "value": "polearm"
+        },
+        "qualities": {
+          "value": [
+            {
+              "name": "damaging"
+            }
+          ]
+        },
+        "flaws": {
+          "value": []
+        },
+        "special": {
+          "value": ""
+        },
+        "equipped": false,
+        "loaded": {
+          "value": false,
+          "repeater": false,
+          "amt": 0
+        },
+        "offhand": {
+          "value": false
+        }
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Bribery",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.d3VZwO4Y5JH5DXdT"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.IwGXgEPOkNVZ0SwI]{Bribery}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "d3VZwO4Y5JH5DXdT"
+    },
+    {
+      "name": "Cool",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.pxNjTxsp1Kp0SmQe"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.m14pGtefJzDYhgzW]{Cool}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 20,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "pxNjTxsp1Kp0SmQe"
+    },
+    {
+      "name": "Consume Alcohol",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.R2ytluHiEFF2KQ5e"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.38Ux3mEWYuQ4heIT]{Consume Alcohol}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 7,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "R2ytluHiEFF2KQ5e"
+    },
+    {
+      "name": "Endurance",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.CcNJsS4jSwB6Ug1J"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.E9UyI8AMrBqgCX4a]{Endurance}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "t"
+        },
+        "advances": {
+          "value": 14,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "CcNJsS4jSwB6Ug1J"
+    },
+    {
+      "name": "Gamble",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.7pQo66cESWttzIlb"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.JVBD7pcdOPJ4nCjq]{Gamble}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "7pQo66cESWttzIlb"
+    },
+    {
+      "name": "Intuition",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.cYtU0ORRFCOpQLWz"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.31VEXGfn6houFutI]{Intuition}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 11,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "cYtU0ORRFCOpQLWz"
+    },
+    {
+      "name": "Melee (Basic)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.wXko3dqdekJgJqIA"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.mk4p8y3RetTuMe2f]{Melee}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ws"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "wXko3dqdekJgJqIA"
+    },
+    {
+      "name": "Channelling (Shyish)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.Bn5fCfKuultNPTtP"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.tXu8Hrd4desq1Rja]{Channelling}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "Bn5fCfKuultNPTtP"
+    },
+    {
+      "name": "Evaluate",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.zs6AvHMjpD5I7vgg"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.NtJ85TY8yY3WOGHN]{Evaluate}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "zs6AvHMjpD5I7vgg"
+    },
+    {
+      "name": "Language (Bretonnian)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.J7kw3eEMJBpC3u7N"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl]{Language}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 3,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "J7kw3eEMJBpC3u7N"
+    },
+    {
+      "name": "Language (Magick)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.N3lfqsaaKMPuKIVz"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl]{Language}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 13,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "N3lfqsaaKMPuKIVz"
+    },
+    {
+      "name": "Language (Wastelander)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.6bUcTpSimjayjlhY"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl]{Language}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 3,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "6bUcTpSimjayjlhY"
+    },
+    {
+      "name": "Melee (Polearm)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.1EphepVARwmRuOXP"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.mk4p8y3RetTuMe2f]{Melee}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ws"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "1EphepVARwmRuOXP"
+    },
+    {
+      "name": "Lore (Magic)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.L3AxEOpXiJSQuF66"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc]{Lore}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 10,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "L3AxEOpXiJSQuF66"
+    },
+    {
+      "name": "Lore (Heraldry)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.LMbvsAR3Wb5NqEMq"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc]{Lore}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "LMbvsAR3Wb5NqEMq"
+    },
+    {
+      "name": "Lore (Riekland)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.NtCEiRU0mwKVNzh5"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.F0RPpWALOBy2zdyc]{Lore}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 3,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "NtCEiRU0mwKVNzh5"
+    },
+    {
+      "name": "Play (Vihuela)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-dex.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.F3tFTr0aqpICdwZD"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.N63wZOWw6ZLYnePN]{Play}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "dex"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "F3tFTr0aqpICdwZD"
+    },
+    {
+      "name": "Heal",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.dSf8QWBvN6mlpHBF]{Heal}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 1,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "effects": [
+        {
+          "name": "Heal",
+          "icon": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+          "_id": "qDQQGKj2DcGr3GdS",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {
+              "scriptData": [
+                {
+                  "label": "Heal Wounds",
+                  "trigger": "dialog",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "return args.skill?.name != game.i18n.localize(\"NAME.Heal\")",
+                      "activateScript": "",
+                      "submissionScript": "args.options.healWounds = true;",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": ""
+                },
+                {
+                  "label": "Heal",
+                  "string": "",
+                  "trigger": "rollTest",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "if (args.test.options.healWounds) {\n if (args.test.result.roll <= game.settings.get(\"wfrp4e\", \"automaticSuccess\") || args.test.result.roll <= args.test.target) {\n   let wounds = this.actor.characteristics.int.bonus + ~~args.test.result.SL\n   if (args.test.options.fieldDressing && args.test.result.reversed)\n      wounds = this.actor.characteristics.int.bonus + Math.min(1, Number(args.test.result.SL))\n\targs.test.result.woundsHealed = wounds\n\targs.test.result.other.push(`<b>${this.actor.name}</b> healed <b>${wounds}</b> wounds of the patient.`)\n   }\n   else if (this.actor.characteristics.int.bonus + args.test.result.SL < 0)\n      args.test.result.other.push(`The patient contracts a @UUID[Compendium.wfrp4e-core.items.Item.1hQuVFZt9QnnbWzg]{Minor Infection}.`)\n}"
+                },
+                {
+                  "label": "Staunch Bleeding Conditions",
+                  "string": "",
+                  "trigger": "dialog",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "return args.skill?.name != game.i18n.localize(\"NAME.Heal\")",
+                      "activateScript": "",
+                      "submissionScript": "args.options.staunchBleeding = true;",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": ""
+                },
+                {
+                  "label": "Staunch",
+                  "string": "",
+                  "trigger": "rollTest",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "if (args.test.options.staunchBleeding) {\n if (args.test.result.roll <= game.settings.get(\"wfrp4e\", \"automaticSuccess\") || args.test.result.roll <= args.test.target) {\n   let staunch =  ~~args.test.result.SL + 1\n   if (args.test.options.fieldDressing && args.test.result.reversed)\n     staunch =  Math.min(1, Number(args.test.result.SL)) + 1\n   args.test.result.other.push(`<b>${this.actor.name}</b> removed <b>${staunch}</b> Bleeding conditions from the patient.`)\n   }\n   else if (this.actor.characteristics.int.bonus + args.test.result.SL < 0)\n      args.test.result.other.push(`The patient contracts a @UUID[Compendium.wfrp4e-core.items.Item.1hQuVFZt9QnnbWzg]{Minor Infection}.`)\n}"
+                }
+              ],
+              "applicationData": {
+                "type": "document",
+                "documentType": "Item",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "testIndependent": false,
+                "equipTransfer": false,
+                "prompt": false
+              }
+            }
+          },
+          "tint": null
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.6PlEzV9v9JykgrvF"
+        },
+        "exportSource": {
+          "world": "test",
+          "system": "wfrp4e",
+          "coreVersion": "11.315",
+          "systemVersion": "7.0.3"
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "6PlEzV9v9JykgrvF"
+    },
+    {
+      "name": "Language (Estalian)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.rqTAc273Y1mY7yMX"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.xo5U0kL08xCPe6kl]{Language}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "rqTAc273Y1mY7yMX"
+    },
+    {
+      "name": "Stealth",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.McTtmZu3Ac8Lh48W"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.OcTx7sDraGiGcvnE]{Stealth}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "McTtmZu3Ac8Lh48W"
+    },
+    {
+      "name": "Aethyric Attunement",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/aethyric-attunement.png",
+      "effects": [
+        {
+          "_id": "mqSUg3ORIh2YCotB",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "equipTransfer": false,
+                "avoidTest": {
+                  "value": "none"
+                },
+                "prompt": false,
+                "testIndependent": false
+              },
+              "scriptData": [
+                {
+                  "label": "Aethyric Attunement",
+                  "trigger": "rollChannellingTest",
+                  "script": "[Script.vzMxIDjRlQSxXtCW]"
+                },
+                {
+                  "label": "@item.system.tests.value",
+                  "string": "",
+                  "trigger": "dialog",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "[Script.22bW97lkvCqisfHX]",
+                      "activateScript": "[Script.6qUKKep5vhFYmo1J]",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  },
+                  "script": "[Script.956dUb5sd6OtbWZR]"
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/talents/aethyric-attunement.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Aethyric Attunement",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.lKvJRl3xGuseO14r"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Your experience, talent or training lets you more safely manipulate the Winds of Magic. You do not suffer a Miscast if you roll a double on a successful Channel Test.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": "Channeling (Any)"
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876508,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "lKvJRl3xGuseO14r"
+    },
+    {
+      "name": "Doomed",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/doomed.png",
+      "effects": [],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.J1xduKP83hUPLLVL"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "At the age of 10, a Priest of Morr called a Doomsayer took you aside to foretell your death in an incense-laden, coming-of-age ritual called the Dooming. In conjunction with your GM, come up with a suitable Dooming. Should your character die in a fashion that matches your Dooming, your next character gains a bonus of half the total XP your dead character accrued during play."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876649,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "J1xduKP83hUPLLVL"
+    },
+    {
+      "name": "Savvy",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/savvy.png",
+      "effects": [
+        {
+          "_id": "sx7NGIdCYniQHaHi",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "equipTransfer": false,
+                "avoidTest": {
+                  "value": "none"
+                },
+                "testIndependent": false,
+                "prompt": false
+              },
+              "scriptData": []
+            }
+          },
+          "changes": [
+            {
+              "key": "system.characteristics.int.initial",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/talents/savvy.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Savvy",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.zJuyYF67rjP46iAH"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "You gain a permanent +5 bonus to your starting Intelligence Characteristic (this does not count towards your Advances)."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876516,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "zJuyYF67rjP46iAH"
+    },
+    {
+      "name": "Petty Magic",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/petty-magic.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.ZGtEmcMXe82l7HAK"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">You have the spark to cast magic within you and have mastered techniques to control it at a basic level. When you take this Talent, you manifest, and permanently memorise, a number of spells equal to your Willpower Bonus. You can learn extra Petty spells for the following cost in XP.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <div style=\"direction: ltr;\">\n  <table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">No. of Petty Spells Currently Known</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5833in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>XP Cost for a new spell</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Up to Willpower Bonus × 1</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">50 XP</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Up to Willpower Bonus × 2</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">100 XP</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Up to Willpower Bonus × 3</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">150 XP</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Up to Willpower Bonus × 4</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">200 XP</p>\n  </td>\n  </tr>\n  </tbody>\n  </table>\n  </div>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">...and so on.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">So, if your Willpower Bonus is 3 and you had 3 Petty spells, it will cost you 50XP for the first learned spell, then 100 XP for the next three, and so on’.</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876650,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "ZGtEmcMXe82l7HAK"
+    },
+    {
+      "name": "Read/Write",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/readwrite.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.15NCwZQDgw4AaChU"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "You are one of the rare literate individuals in the Old World. You are assumed to be able to read and write (if appropriate) all of the Languages you can speak."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876514,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "15NCwZQDgw4AaChU"
+    },
+    {
+      "name": "Second Sight",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/second-sight.png",
+      "effects": [
+        {
+          "name": "Second Sight",
+          "icon": "modules/wfrp4e-core/icons/talents/second-sight.png",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "@item.system.tests.value",
+                  "trigger": "dialog",
+                  "script": "[Script.956dUb5sd6OtbWZR]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "[Script.8hIyWDyfbgGAig65]",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "_id": "JbnPNkvW4fBmEJ8U",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "tint": null
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.EmjyGFuf0tonUQ1g"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "You can perceive the shifting Winds of Magic that course from the Chaos Gates at the poles of the world. You now have the Sight"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": "Any Test to detect the Winds of Magic"
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876516,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "EmjyGFuf0tonUQ1g"
+    },
+    {
+      "name": "Sixth Sense",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/sixth-sense.png",
+      "effects": [
+        {
+          "name": "Sixth Sense",
+          "icon": "modules/wfrp4e-core/icons/talents/sixth-sense.png",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "@item.system.tests.value",
+                  "trigger": "dialog",
+                  "script": "[Script.956dUb5sd6OtbWZR]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "[Script.kmsGLWGxCY8Z8jVG]",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": false
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "_id": "fo0JnoTpn6UTaks2",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "tint": null
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.0fsxXffJwGKphUgp"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "You get a strange feeling when you are threatened, and can react accordingly. The GM may warn you if you are walking into danger; this will normally come after a secret Intuition Test on your behalf. Further, you may ignore Surprise if you pass an Intuition Test"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": "Intuition Tests involving your Sixth Sense"
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876650,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "0fsxXffJwGKphUgp"
+    },
+    {
+      "name": "Coolheaded",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/coolheaded.png",
+      "effects": [
+        {
+          "_id": "QTmmZBqgkJMBn9KT",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "document",
+                "documentType": "Actor",
+                "equipTransfer": false,
+                "avoidTest": {
+                  "value": "none"
+                },
+                "testIndependent": false,
+                "prompt": false
+              },
+              "scriptData": []
+            }
+          },
+          "changes": [
+            {
+              "key": "system.characteristics.wp.initial",
+              "mode": 2,
+              "value": "5",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/talents/coolheaded.png",
+          "tint": null,
+          "transfer": true,
+          "origin": null,
+          "name": "Coolheaded",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.z6FPZZWiIX6JWyjD"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "You gain a permanent +5 bonus to your starting Willpower Characteristic this does not count towards your Advances."
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "max": {
+          "value": "1"
+        },
+        "advances": {
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": ""
+        },
+        "tests": {
+          "value": ""
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652876514,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "AS7qmSeKqXalDVUO",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "z6FPZZWiIX6JWyjD"
+    },
+    {
+      "name": "Parchment/sheet",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/book_documents/parchmentsheet.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.8pTKEwcb7vxWlSbk"
+        }
+      },
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 1,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "booksAndDocuments"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495293,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "Nws4uikQyqe6ah05",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "8pTKEwcb7vxWlSbk"
+    },
+    {
+      "name": "Quill Pen",
+      "type": "trapping",
+      "img": "modules/wfrp4e-core/icons/equipment/tools_and_kits/quill-pen.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.GvIGAZMDhOlCMViq"
+        }
+      },
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0
+        },
+        "price": {
+          "gc": 0,
+          "ss": 3,
+          "bp": 0
+        },
+        "availability": {
+          "value": "common"
+        },
+        "location": {
+          "value": ""
+        },
+        "trappingType": {
+          "value": "toolsAndKits"
+        },
+        "worn": false,
+        "spellIngredient": {
+          "value": ""
+        },
+        "qualities": {
+          "value": []
+        },
+        "flaws": {
+          "value": []
+        },
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495174,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "CSzcbjvVhiToyYmB",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "GvIGAZMDhOlCMViq"
+    },
+    {
+      "name": "Art",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-dex.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.fdq3RFSOKl5b3WzW"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.tVSESlQWIl8QjK6y]{Art}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "dex"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "fdq3RFSOKl5b3WzW"
+    },
+    {
+      "name": "Athletics",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.LGHozP5gmQ8cuDQV"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.Ss6Gp732GjscYke0]{Athletics}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "LGHozP5gmQ8cuDQV"
+    },
+    {
+      "name": "Charm",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.exLrBrn2mjb6x2Cq"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.9OommpqxE34iocmg]{Charm}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "exLrBrn2mjb6x2Cq"
+    },
+    {
+      "name": "Charm Animal",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.4IGdIhnwTaZijzg7"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.1N6sOXgrqF1KkIh0]{Charm Animal}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "wp"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "4IGdIhnwTaZijzg7"
+    },
+    {
+      "name": "Climb",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.sRuMlaPU5xdIrwhd"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.yOONKSIBrg4FOl20]{Climb}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "sRuMlaPU5xdIrwhd"
+    },
+    {
+      "name": "Dodge",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.1jCxbFAUuFuAPLJl"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.dPpyiMhPwVGJnJrv]{Dodge}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 5,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "1jCxbFAUuFuAPLJl"
+    },
+    {
+      "name": "Drive",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.iYan4z52v7HYM9u9"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.uLPWAFSfT5Vf1zZl]{Drive}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "iYan4z52v7HYM9u9"
+    },
+    {
+      "name": "Entertain",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.0CwV96kTDRF0jUhk"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.hrCbYa4b2iKPgBui]{Entertain}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "0CwV96kTDRF0jUhk"
+    },
+    {
+      "name": "Gossip",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.RLQHm1s4IuY9RSr2"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.ns3PDbblIFcwqyQi]{Gossip}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "RLQHm1s4IuY9RSr2"
+    },
+    {
+      "name": "Haggle",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.pKLMbmG3Ivt6mzMf"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.qSSRHdEK5P7VRmKW]{Haggle}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "pKLMbmG3Ivt6mzMf"
+    },
+    {
+      "name": "Intimidate",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.I0yPc4PH5erWJLmu"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.mDs8HUZopZAb1fH0]{Intimidate}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "I0yPc4PH5erWJLmu"
+    },
+    {
+      "name": "Leadership",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-fel.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.oMaJZ5cvCJeOUq9H"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.haKq6qZXYj7Bweu4]{Leadership}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "fel"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "oMaJZ5cvCJeOUq9H"
+    },
+    {
+      "name": "Melee",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ws.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.F8NfBZdVSEIGCMtu"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.mk4p8y3RetTuMe2f]{Melee}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ws"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "F8NfBZdVSEIGCMtu"
+    },
+    {
+      "name": "Navigation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.zZUX7wO4rOo8k9F0"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.rf7gtZko4KJvjFaE]{Navigation}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "zZUX7wO4rOo8k9F0"
+    },
+    {
+      "name": "Outdoor Survival",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.os4NKy5Oy6sRt1eh"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3]{Outdoor Survival}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "int"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "os4NKy5Oy6sRt1eh"
+    },
+    {
+      "name": "Perception",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.Fs06sr7y9JKpVQmB"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.6Jhks0zDRpJeN6dW]{Perception}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "i"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "Fs06sr7y9JKpVQmB"
+    },
+    {
+      "name": "Ride",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.MeXCAQ3wqJzX07X7"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.QQukmSP68cF8MzJe]{Ride}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "isSpec"
+        },
+        "characteristic": {
+          "value": "ag"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "MeXCAQ3wqJzX07X7"
+    },
+    {
+      "name": "Row",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "effects": [],
+      "folder": "dc53RquVINsYS6cm",
+      "sort": 0,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.KL4pCOqma5E7fLG4"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.ACCaGYXdz9yKyxgG]{Row}"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc"
+        },
+        "grouped": {
+          "value": "noSpec"
+        },
+        "characteristic": {
+          "value": "s"
+        },
+        "advances": {
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "value": 0
+        },
+        "total": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691216016344,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "KL4pCOqma5E7fLG4"
+    },
+    {
+      "name": "Gold Crown",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/goldcrown.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.Ggx0bRaCuq8MbF0g"
+        }
+      },
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 240
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495181,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "Ggx0bRaCuq8MbF0g"
+    },
+    {
+      "name": "Silver Shilling",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/silvershilling.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.KB8HgDz56dh2w7w1"
+        }
+      },
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 12
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495184,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "KB8HgDz56dh2w7w1"
+    },
+    {
+      "name": "Brass Penny",
+      "type": "money",
+      "img": "modules/wfrp4e-core/icons/currency/brasspenny.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.0MYOJFx3vkYA95B4"
+        }
+      },
+      "system": {
+        "description": {
+          "value": ""
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "quantity": {
+          "value": 1
+        },
+        "encumbrance": {
+          "value": 0.005
+        },
+        "location": {
+          "value": ""
+        },
+        "coinValue": {
+          "value": 1
+        },
+        "price": {
+          "gc": null,
+          "ss": null,
+          "bp": null
+        },
+        "availability": {},
+        "damageToItem": {
+          "value": null,
+          "shield": null
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663627495169,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "folder": "fFWGmypKsp4nFc6H",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0,
+      "_id": "0MYOJFx3vkYA95B4"
+    },
+    {
+      "name": "Shock",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [
+        {
+          "_id": "FyR5DAoHrTepIw8G",
+          "flags": {
+            "wfrp4e": {
+              "applicationData": {
+                "type": "target",
+                "documentType": "Actor",
+                "avoidTest": {
+                  "value": "none"
+                },
+                "equipTransfer": false,
+                "prompt": false
+              },
+              "scriptData": [
+                {
+                  "label": "Shock",
+                  "trigger": "immediate",
+                  "script": "[Script.ioeTj5mx8jlA5EX5]",
+                  "options": {
+                    "dialog": {
+                      "hideScript": "",
+                      "activateScript": "",
+                      "submissionScript": "",
+                      "targeter": false
+                    },
+                    "immediate": {
+                      "deleteEffect": true
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "icon": "modules/wfrp4e-core/icons/spells/petty.png",
+          "tint": null,
+          "transfer": false,
+          "origin": null,
+          "name": "Shock",
+          "description": "",
+          "statuses": []
+        }
+      ],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.qUS5hIOtTj6vhGzE"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Your target receives 1 @Condition[Stunned] Condition.</p><p>\n\n <b>Lore:</b> None<p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Touch",
+          "vortex": false
+        },
+        "target": {
+          "value": "1",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Instant",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652872081,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "qUS5hIOtTj6vhGzE",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Dart",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.BTZatSNOAKIkpSnB"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>You cause a small dart of magical energy to ﬂy from your fingers. This is a Magic Missile with a Damage of +0.</p><p>\n\n <b>Lore:</b> None<p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Willpower yards",
+          "vortex": false
+        },
+        "target": {
+          "value": "1",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Instant",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": "+0"
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": true
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652871869,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "BTZatSNOAKIkpSnB",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Light",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/petty.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.d7zbO4fC7kA1KWum"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>You create a small light, roughly equivalent to a torch, which glows from your hand, staff or some other part of your person. While the spell is active, you may choose to increase the illumination to that of a lantern, or decrease it to that of a candle, if you pass an <strong>Average (+20) Channeling</strong> Test.</p><p>\n\n <b>Lore:</b> None<p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "petty",
+          "effectString": ""
+        },
+        "range": {
+          "value": "You",
+          "vortex": false
+        },
+        "target": {
+          "value": "You",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Willpower Minutes",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 0,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652872326,
+        "modifiedTime": 1715782425513,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "d7zbO4fC7kA1KWum",
+      "folder": "WmoAGT9ga91iy30E",
+      "ownership": {
+        "default": 0,
+        "WSH1M9OwikGRQD2R": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Wizard's Apprentice",
+      "type": "career",
+      "img": "modules/wfrp4e-core/icons/careers/wizard-01.png",
+      "effects": [],
+      "folder": "dmeXXc2Fvthp6IZR",
+      "sort": 24500000,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.1Eql4Dvjt5hrHCAL"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.PKm1L6yjZ4PH0JJG]{Wizard}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "careergroup": {
+          "value": "Wizard"
+        },
+        "class": {
+          "value": "Academics"
+        },
+        "current": {
+          "value": true
+        },
+        "complete": {
+          "value": false
+        },
+        "level": {
+          "value": 1
+        },
+        "status": {
+          "tier": "b",
+          "standing": 3
+        },
+        "characteristics": [
+          "ws",
+          "int",
+          "wp"
+        ],
+        "skills": [
+          "Channelling (Any Color)",
+          "Dodge",
+          "Intuition",
+          "Language (Magick)",
+          "Lore (Magic)",
+          "Melee (Basic)",
+          "Melee (Polearm)",
+          "Perception"
+        ],
+        "talents": [
+          "Aethyric Attunement",
+          "Petty Magic",
+          "Read/Write",
+          "Second Sight"
+        ],
+        "trappings": [
+          "Grimoire",
+          "Staff"
+        ],
+        "incomeSkill": [
+          3
+        ]
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691215526544,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "1Eql4Dvjt5hrHCAL"
+    },
+    {
+      "name": "Scion",
+      "type": "career",
+      "img": "modules/wfrp4e-core/icons/careers/noble-01.png",
+      "effects": [],
+      "folder": "dmeXXc2Fvthp6IZR",
+      "sort": 24700000,
+      "flags": {
+        "_sheetTab": "details",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-starter-set.actors.Actor.VdDotfA5zyWYdtwc.Item.kCrDPRbutKViDlIX"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>@UUID[Compendium.wfrp4e-core.journals.wczCPcuHT4VQDLpL.JournalEntryPage.t41abSTLeMAdLiWS]{Noble}</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "careergroup": {
+          "value": "Noble"
+        },
+        "class": {
+          "value": "Courtiers"
+        },
+        "current": {
+          "value": false
+        },
+        "complete": {
+          "value": false
+        },
+        "level": {
+          "value": 1
+        },
+        "status": {
+          "tier": "g",
+          "standing": 1
+        },
+        "characteristics": [
+          "ws",
+          "i",
+          "dex"
+        ],
+        "skills": [
+          "Bribery",
+          "Consume Alcohol",
+          "Gamble",
+          "Intimidate",
+          "Leadership",
+          "Lore (Heraldry)",
+          "Melee (Fencing)",
+          "Play (Any)"
+        ],
+        "talents": [
+          "Etiquette (Nobles)",
+          "Luck",
+          "Noble Blood",
+          "Read/Write"
+        ],
+        "trappings": [
+          "Courtly Garb",
+          "Foil or Hand Mirror",
+          "Jewelry worth 3d10 GC",
+          "Personal Servant"
+        ],
+        "incomeSkill": [
+          4
+        ]
+      },
+      "ownership": {
+        "default": 0,
+        "sAiwDCZFd21tgaDN": 3,
+        "UC3GBICXFNclXoFJ": 3
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.0.3",
+        "coreVersion": "11.315",
+        "createdTime": 1691215526544,
+        "modifiedTime": 1713591801548,
+        "lastModifiedBy": "UC3GBICXFNclXoFJ"
+      },
+      "_id": "kCrDPRbutKViDlIX"
+    },
+    {
+      "name": "Aura ordinaire (Mort)",
+      "type": "spell",
+      "img": "modules/wfrp4e-core/icons/spells/death.png",
+      "effects": [],
+      "flags": {
+        "_sheetTab": "description",
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.Item.Ynbfu2VJDrYqN9aW"
+        },
+        "babele": {
+          "translated": true,
+          "hasTranslation": true,
+          "originalName": "Mundane Aura (Death)"
+        }
+      },
+      "system": {
+        "description": {
+          "value": "<p>Vous drainez tous les Vents de la Magie de votre corps et de vos Possessions, retirant toute aura magique. Pour la durée du Sort, vous semblez ordinaire pour les Talents @Compendium[wfrp4e-core.items.6w30u0VPsAicrqb5] et similaire. Vous n'avez effectivement aucune capacité magique et votre nature magique ne peut être détectée d'aucune façon. Tant que le Sort est actif, vous ne pouvez lancer aucun autre Sort. <em>Aura ordinaire</em> est instantanément dissipé si vous effectuez un Test de Focalisation</p>"
+        },
+        "gmdescription": {
+          "value": ""
+        },
+        "lore": {
+          "value": "death",
+          "effectString": ""
+        },
+        "range": {
+          "value": "Vous",
+          "vortex": false
+        },
+        "target": {
+          "value": "Vous",
+          "aoe": false
+        },
+        "duration": {
+          "value": "Force Mentale minutes",
+          "extendable": false
+        },
+        "damage": {
+          "dice": "",
+          "value": ""
+        },
+        "cn": {
+          "value": 4,
+          "SL": 0
+        },
+        "magicMissile": {
+          "value": false
+        },
+        "ritual": {
+          "value": false,
+          "type": "",
+          "xp": 0
+        },
+        "memorized": {
+          "value": false
+        },
+        "skill": {
+          "value": ""
+        },
+        "ingredients": [],
+        "currentIng": {
+          "value": "0"
+        },
+        "wind": {
+          "value": ""
+        },
+        "overcast": {
+          "enabled": false,
+          "label": "",
+          "valuePerOvercast": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          },
+          "initial": {
+            "type": "",
+            "value": 1,
+            "SL": false,
+            "characteristic": "",
+            "bonus": false
+          }
+        }
+      },
+      "_stats": {
+        "systemId": "wfrp4e",
+        "systemVersion": "7.1.3",
+        "coreVersion": "11.315",
+        "createdTime": 1663652872071,
+        "modifiedTime": 1715782467615,
+        "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+      },
+      "_id": "eOo1LIyqAg8qQlQH",
+      "folder": "hja9xdeA54LqMF9x",
+      "ownership": {
+        "default": 0,
+        "mBtrbCGpF0ACWSFj": 3
+      },
+      "sort": 0
+    }
+  ],
+  "effects": [],
+  "folder": "waI9lu3LD3e2JT5v",
+  "flags": {
+    "autoCalcRun": true,
+    "autoCalcWalk": true,
+    "autoCalcWounds": true,
+    "autoCalcCritW": true,
+    "autoCalcCorruption": true,
+    "autoCalcEnc": true,
+    "modifier": "",
+    "wfrp4e-starter-set": {
+      "initialization-folder": "Pregens",
+      "sort": 100001
+    },
+    "autoCalcSize": true,
+    "talentTests": [
+      {
+        "talentName": "Aethyric Attunement",
+        "test": "Channeling (Any)",
+        "SL": 1
+      },
+      {
+        "talentName": "Second Sight",
+        "test": "Any Test to detect the Winds of Magic",
+        "SL": 1
+      },
+      {
+        "talentName": "Sixth Sense",
+        "test": "Intuition Tests involving your Sixth Sense",
+        "SL": 1
+      }
+    ],
+    "meleeDamageIncrease": 0,
+    "rangedDamageIncrease": 0,
+    "robust": 0,
+    "ambi": 0,
+    "resolute": 0,
+    "eqpPoints": 0,
+    "defensive": 0,
+    "exportSource": {
+      "world": "warhammer",
+      "system": "wfrp4e",
+      "coreVersion": "11.315",
+      "systemVersion": "7.1.3"
+    }
+  },
+  "system": {
+    "characteristics": {
+      "ws": {
+        "initial": 32,
+        "modifier": 0,
+        "advances": 10,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "bs": {
+        "initial": 24,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "s": {
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "t": {
+        "initial": 28,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "i": {
+        "initial": 32,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "ag": {
+        "initial": 31,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "dex": {
+        "initial": 27,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "int": {
+        "initial": 40,
+        "modifier": 0,
+        "advances": 8,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "wp": {
+        "initial": 33,
+        "modifier": 0,
+        "advances": 10,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      },
+      "fel": {
+        "initial": 23,
+        "modifier": 0,
+        "advances": 0,
+        "bonusMod": 0,
+        "calculationBonusModifier": 0
+      }
+    },
+    "status": {
+      "wounds": {
+        "value": 10,
+        "max": 10
+      },
+      "advantage": {
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "value": 0,
+        "max": 2
+      },
+      "sin": {
+        "value": 0
+      },
+      "corruption": {
+        "value": 0
+      },
+      "encumbrance": {
+        "max": 4,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      },
+      "fate": {
+        "value": 3
+      },
+      "fortune": {
+        "value": 3
+      },
+      "resilience": {
+        "value": 3
+      },
+      "resolve": {
+        "value": 3
+      },
+      "ward": {
+        "value": 0
+      }
+    },
+    "details": {
+      "species": {
+        "value": "Human",
+        "subspecies": ""
+      },
+      "gender": {
+        "value": "Male"
+      },
+      "biography": {
+        "value": "<h4><strong>Quotations</strong></h4>\n<p><em>&lsquo;&hellip;&rsquo;</em></p>\n<p><em>&lsquo;Die.&rsquo;</em></p>\n<p><em>&lsquo;We will fix that&rsquo;</em></p>\n<p><em>&lsquo;I don&rsquo;t talk much? I hadn&rsquo;t noticed.&rsquo;</em></p>\n<h4><strong>Who is Ferdinand?</strong></h4>\n<p>Gruber is the oldest son of the Baron of Weissbruck, but as he&rsquo;s a wizard, he cannot legally inherit, meaning his wastrel younger brother, Bartolini, is now the Baronet. This once bothered him, but Ferdinand has mellowed over the fifteen years he&rsquo;s been training to be an Amethyst Wizard and is now the epitome of calm. His mother was an acrobat from the famous touring Cuppolalinni Family of Tilea, a marriage that was not well accepted at court, leaving Gruber with a bitter opinion concerning courtiers.</p>\n<h4><strong>What is he like?</strong></h4>\n<p>Dour, loyal, and often sarcastic.</p>\n<h4><strong>Why play Ferdinand?</strong></h4>\n<p>Ferdinand is a wizard, which means most citizens if the Empire fear him. Play him because:</p>\n<p>&bull; You&rsquo;re not too comfortable roleplaying, and would like to play a relatively quiet character.</p>\n<p>&bull; Ferdinand is really cool under pressure, and can&nbsp;handle most adventures with aplomb.</p>\n<p>&bull; Most importantly, Ferdinand has magic!</p>\n<p>&nbsp;</p>\n<h3><strong>Character Details</strong></h3>\n<h4><strong>Mother: </strong>Dolores Gruber</h4>\n<h4><strong>Father: </strong>Barhold Gruber</h4>\n<h4><strong>Siblings: </strong>2 Brothers, 1 Sister</h4>\n<h4><strong>Partners:</strong> None</h4>\n<h4><strong>Birthplace: </strong>Weissbruck, Reikland</h4>\n<p>&nbsp;</p>\n<h3><strong>Motivation</strong></h3>\n<p>Choose one from:</p>\n<ul>\n<li>Protecting Salundra.</li>\n<li>Using humour to diffuse a situation.</li>\n<li>Stopping Undead.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Group Ties</strong></h3>\n<p><em>Select 1, some, or all of the following ties to the rest of the group to choose how you wish Ferdinand to act.</em></p>\n<ul>\n<li>Ferdinand will protect Salundra&rsquo;s life with his own, no matter the outcome.</li>\n<li>He likes sleeping with Molli (just sleeping), and finds her snuggles comforting.</li>\n<li>Ferdinand enjoys long quiet drinks with Gunnar.</li>\n<li>Amris fascinates him. Ferdinand wants to know all about the Elf &rsquo;s homelands.</li>\n<li>Else is reliable and strong. Ferdinand likes her a lot, and puts stock in her words.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Secrets</strong></h3>\n<p><em>Select 1, some, or all of the following secrets. For each one you choose, you begin with game with an extra [[/r 6d10]] brass pennies.</em></p>\n<ul>\n<li>Ferdinand was hired by Salundra&rsquo;s father to protect her.</li>\n<li>Rats, mice, and vermin of all kinds cause Fear in Ferdinand (ask the GM).</li>\n<li>Ferdinand really dislikes Courtiers (not including Sali, obviously).</li>\n<li>Ferdinand refuses to harm an Entertainer (his mother&rsquo;s profession).</li>\n<li>Magic has taken its toll on Ferdinand&rsquo;s soul. Gain +3 Corruption.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Initial Wealth</strong></h3>\n<p><em>You begin the game with [[/r 6d10]] brass pennies. In addition, you gain an extra +[[/r 6d10]] brass pennies for every secret you have selected.</em></p>"
+      },
+      "gmnotes": {
+        "value": ""
+      },
+      "size": {
+        "value": "avg"
+      },
+      "move": {
+        "value": 4
+      },
+      "god": {
+        "value": ""
+      },
+      "status": {
+        "value": "Brass 3",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc"
+      },
+      "experience": {
+        "total": 3200,
+        "spent": 2250,
+        "log": [
+          {
+            "reason": "Test",
+            "amount": 1000,
+            "spent": 2200,
+            "total": 3200,
+            "type": "total"
+          },
+          {
+            "amount": 50,
+            "reason": "Dodge (5)",
+            "spent": 2250,
+            "total": 3200,
+            "type": "spent"
+          }
+        ]
+      },
+      "personal-ambitions": {
+        "short-term": "",
+        "long-term": ""
+      },
+      "party-ambitions": {
+        "name": "",
+        "short-term": "",
+        "long-term": ""
+      },
+      "motivation": {
+        "value": ""
+      },
+      "class": {
+        "value": ""
+      },
+      "career": {
+        "value": ""
+      },
+      "careerlevel": {
+        "value": ""
+      },
+      "age": {
+        "value": "27"
+      },
+      "height": {
+        "value": "6'3\""
+      },
+      "weight": {
+        "value": ""
+      },
+      "haircolour": {
+        "value": "None"
+      },
+      "eyecolour": {
+        "value": "Brown"
+      },
+      "distinguishingmark": {
+        "value": ""
+      },
+      "starsign": {
+        "value": ""
+      },
+      "mainHand": "r"
+    }
+  },
+  "prototypeToken": {
+    "flags": {},
+    "name": "Ferdinand",
+    "displayName": 20,
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "actorLink": true,
+    "disposition": 1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "randomImg": false,
+    "alpha": 1,
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "type": null,
+        "reverse": false
+      },
+      "coloration": 1,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "texture": {
+      "src": "modules/wfrp4e-starter-set/tokens/popout/ferdinand.webp",
+      "tint": null,
+      "scaleX": 2,
+      "scaleY": 2,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "sight": {
+      "angle": 360,
+      "enabled": true,
+      "range": 0,
+      "brightness": 1,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "_stats": {
+    "systemId": "wfrp4e",
+    "systemVersion": "7.1.3",
+    "coreVersion": "11.315",
+    "createdTime": 1663999777018,
+    "modifiedTime": 1714590123773,
+    "lastModifiedBy": "mBtrbCGpF0ACWSFj"
+  }
+}
