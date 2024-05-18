@@ -197,3 +197,39 @@ ul{
     max-width: 100%;
     width: 400px;
 }
+
+.armesTdName {
+    width: 55%;
+    max-width: 180px;
+    text-align: left;
+}
+.armesTdEnc {
+    width: 7%;
+    max-width: 28px;
+    text-align: center;
+}
+.armesTdGroup,
+.armesTdRange {
+    width: 19%;
+    max-width: 76px;
+    text-align: center;
+}
+.armesTdDamage {
+    width: 10%;
+    max-width: 40px;
+    text-align: center;
+}
+.armesTdAll {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.infos {
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+p {
+    margin: 0;
+}

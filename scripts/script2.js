@@ -967,7 +967,7 @@ function AtoutsDefautsArmes(qualities, flaws, index) {
     if (qualities.length > 0) {
         atouts = `
             <tr class="bg-${index}">
-                <td colspan="5"><strong>Atouts</strong> : `;
+                <td colspan="5" class="armesTdAll"><strong>Atouts</strong> : `;
         for (let y = 0; y < qualities.length; y++) {
             if(y > 0) {
                 atouts += `, `;
@@ -982,7 +982,7 @@ function AtoutsDefautsArmes(qualities, flaws, index) {
     if (flaws.length > 0) {
         defauts = `
             <tr class="bg-${index}">
-                <td colspan="5"><strong>Défauts</strong> : `;
+                <td colspan="5" class="armesTdAll"><strong>Défauts</strong> : `;
         for (let y = 0; y < flaws.length; y++) {
             if(y > 0) {
                 defauts += `, `;
@@ -1082,17 +1082,17 @@ function genereArmes(fiche) {
         
         arme1 += `
             <tr class="bg-${index}">
-                <td>${eyeBegin}${armes[i].name}${eyeEnd}</td>
-                <td>${groupe}</td>
-                <td>${armes[i].system.encumbrance.value}</td>
-                <td>${reach}</td>
-                <td>${damage}</td>
+                <td class="armesTdName">${eyeBegin}${armes[i].name}${eyeEnd}</td>
+                <td class="armesTdGroup">${groupe}</td>
+                <td class="armesTdEnc">${armes[i].system.encumbrance.value}</td>
+                <td class="armesTdRange">${reach}</td>
+                <td class="armesTdDamage">${damage}</td>
             </tr>
             ${atouts}
             ${defauts}`
         arme2 += `
             <input type="checkbox" name="check-arme${i}" id="check-arme${i}" class="check-eye">
-            <div class="hidden bg-${index}">
+            <div class="hidden ul-border bg-1">
                 <p>${armes[i].name} : ${armes[i].system.special.value}</p>
             </div>`;
     }
@@ -1100,13 +1100,13 @@ function genereArmes(fiche) {
     let html1 = `
         <h3><label for="check-armes"><span class="check-armes"><i class="fa-solid fa-eye"></i></span> Armes</label></h3>
         <input type="checkbox" name="check-armes" id="check-armes" class="check-eye" checked>
-        <table class="hidden inventory">
+        <table class="hidden armes">
             <tr>
-                <th>Nom</th>
-                <th>Groupe</th>
-                <th>Enc</th>
-                <th>Portée/allonge</th>
-                <th>Dégâts</th>
+                <th class="armesTdName">Nom</th>
+                <th class="armesTdGroup">Groupe</th>
+                <th class="armesTdEnc">Enc</th>
+                <th class="armesTdRange">Portée</th>
+                <th class="armesTdDamage">Dgt</th>
             </tr>
             ${arme1}
         </table>`;
